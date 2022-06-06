@@ -1,11 +1,10 @@
 export default {
   global: {
-    componenteFormativo:
-      'Componente Formativo con un nombre extremadamente largo y extenso',
+    componenteFormativo: 'Protocolos de servicio al cliente',
     descripcionCurso:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis vestibulum quam bibendum varius.<br/><br/>Quisque pretium at nulla sit amet placerat. Vestibulum consequat suscipit accumsan. Proin pharetra congue enim et tempus. Sed sodales dui volutpat, placerat tellus accumsan, semper est. Phasellus nec lorem elementum, mattis quam eget, vestibulum nibh. Sed.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
+      'Se debe planificar de forma integral lo que se va a ofrecer durante el proceso de venta y una herramienta eficaz para garantizarlo es la aplicación del protocolo con visión incluyente. Todos los funcionarios de atención al cliente deben estar en constante capacitación para garantizar que la experiencia que él viva certifique la calidad del producto o servicio recibido.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
   },
   menuPrincipal: {
     menu: [
@@ -24,116 +23,26 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Componentes',
+        titulo: 'Recursos tecnológicos para atender al cliente ',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Encabezados',
-            hash: 'encabezados',
+            titulo: 'Tipos',
+            hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Párrafos',
-            hash: 'parrafos',
+            titulo: 'Características',
+            hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Botones',
-            hash: 'botones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Listas',
-            hash: 'listas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Tablas',
-            hash: 'tablas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Imagen',
-            hash: 'imagen',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.7',
-            titulo: 'Imagen Infográfica',
-            hash: 'imagen_infografica',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.8',
-            titulo: 'Video',
-            hash: 'video',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.9',
-            titulo: 'Bloques de texto destacado',
-            hash: 'texto_destacado',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.10',
-            titulo: 'Sliders',
-            hash: 'sliders',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.11',
-            titulo: 'Acordiones',
-            hash: 'acordiones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.12',
-            titulo: 'Pestañas o Tabs',
-            hash: 'tabs',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.13',
-            titulo: 'Líneas de tiempo',
-            hash: 'lineas_tiempo',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.14',
-            titulo: 'Pasos',
-            hash: 'pasos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.15',
-            titulo: 'Llamados a la acción',
-            hash: 'llamados_accion',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.16',
-            titulo: 'Tarjetas',
-            hash: 'tarjetas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.17',
-            titulo: 'Tarjetas con número',
-            hash: 'tarjeta_numero',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.18',
-            titulo: 'Modal',
-            hash: 'modal',
+            titulo: 'Manejo',
+            hash: 't_1_3',
           },
         ],
       },
@@ -141,90 +50,90 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Producción Audiovisual',
+        titulo:
+          'Normatividad de seguridad de la información para contactar al cliente',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Infografía Animada',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Video Motion',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Motion + Presentador',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Animación 2D',
-            hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Video interactivo',
-            hash: 't_2_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.6',
-            titulo: 'Infografías',
-            hash: 't_2_6',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Fundamentación Textil',
+        titulo: 'Portafolio de servicios',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
+            titulo: 'Elementos',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Identificación fibras por combustión',
+            titulo: 'Características',
             hash: 't_3_2',
           },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'La comunicación con el cliente',
+        desarrolloContenidos: true,
+        subMenu: [
           {
             icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Clasificación de los hilos',
-            hash: 't_3_3',
+            numero: '4.1',
+            titulo: 'Características, tipos y elementos',
+            hash: 't_4_1',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '3.4',
-            titulo: 'Clasificación de tejidos',
-            hash: 't_3_4',
+            numero: '4.2',
+            titulo: 'Jerarquización',
+            hash: 't_4_2',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '3.5',
-            titulo: 'Caracterización de los tejidos',
-            hash: 't_3_5',
+            numero: '4.3',
+            titulo: 'Técnicas de comunicación oral, escrita y corporal',
+            hash: 't_4_3',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '3.6',
-            titulo: 'Procesos textiles',
-            hash: 't_3_6',
+            numero: '4.4',
+            titulo: 'Técnicas de comunicación efectiva y asertiva',
+            hash: 't_4_4',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo:
+          'Etiqueta y protocolo en la atención al cliente, reglas y normas',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema6',
+        icono: 'far fa-file-alt',
+        numero: '6',
+        titulo: 'Relaciones interpersonales',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '6.1',
+            titulo: 'Tipos',
+            hash: 't_6_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '6.2',
+            titulo: 'Factores',
+            hash: 't_6_2',
           },
         ],
       },
@@ -271,132 +180,150 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Arismendy, A. (2013). ¿Cómo vender?, manual de ventas y atención al cliente. A. Arismendy.',
+    },
+    {
+      referencia: 'Barbera, G. E. (2013). El estilo e-portafolio. UOC. ',
+    },
+    {
+      referencia:
+        'Cajal, F., A. (2020). Portafolio de servicios: tipos, partes y ejemplos. Lifeder. ',
+    },
+    {
+      referencia:
+        'Cámara de Comercio de Medellín. (s. f.). Protocolo de atención a personas en situación de discapacidad. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://www.camaramedellin.com.co/portals/0/transparencia/documentos/2019/protocolo_atencion_%20personas_en_situaci%c3%b3n_de_discapacidad_ccma.pdf',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+        'Carrera, F., Jiménez, G., A., y Viera, L., L. (2019). Técnicas de comunicación. IC Editorial',
+    },
+    {
+      referencia:
+        'Fernández, A. M. (2021). Definición de relaciones interpersonales. Tipos, instancias y rasgos. Definicion.com',
+      link: 'https://definicion.com/relaciones-interpersonales/',
+    },
+    {
+      referencia:
+        'Funiber.org. (2017). Beneficios de incorporar tecnología a las empresas.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://blogs.funiber.org/direccion-empresarial/2017/06/14/funiber-beneficios-tecnologia-empresas',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'IMF-formación.com. (2019). Atención al cliente a través de medios tecnológicos. Blog marketing.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://blogs.imf-formacion.com/blog/marketing/atencion-al-cliente-medios-tecnologicos/?sp=6358541982459737508418/page/4',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'Instituto Nacional de Ciberseguridad. (2020). Cómo proteger la información de los clientes.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://www.incibe.es/protege-tu-empresa/blog/proteger-informacion-personal-los-clientes-empresa',
+    },
+    {
+      referencia: 'Julia, M. U. (2020). Características de la comunicación.',
+      link: 'https://www.caracteristicas.co/comunicacion',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'Mateos, M. Á. (2012). Atención básica al cliente. IC Editorial.',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'Models, Inc., & Communication. (2011). Shannon and weaver model of communication. Communication theory.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://www.communicationtheory.org/shannon-and-weaver-model-of-communication/',
+    },
+    {
+      referencia:
+        'Novella, R., Repetto, A., Robino, C., & Rucci, G. (2018). Millennials en América Latina y el Caribe: ¿trabajar o estudiar? (resumen ejecutivo). Interamerican Development Bank. ',
+      link: 'https://doi.org/10.18235/0001411',
+    },
+    {
+      referencia:
+        'Oliveras, R., I. (2009). El cliente y la calidad en el servicio. Editorial Trillas.',
+    },
+    {
+      referencia:
+        'Pérez, R., W. (2021). El protocolo en la atención al cliente.',
+      link:
+        'https://www.protocolo.org/social/etiqueta-social/el-protocolo-en-la-atencion-al-cliente.html',
+    },
+    {
+      referencia: 'Tiposde.com. (2017). Tipos de relaciones interpersonales.',
+      link: 'https://www.tiposde.com/relaciones_interpersonales.html',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Canal de comunicación',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'medio físico a través del cual se puede comunicar, sirve para el intercambio de información entre el emisor y el receptor ya sea oral, escrito, lenguaje de señas, etc.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Comunicación',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'acción consciente de intercambio entre dos o más personas para recibir o trasmitir información',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Etiqueta',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'norma de conducta que cumple expectativas en el comportamiento social, gana importancia en los eventos públicos y privados que requieran de ceremonia.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Jerarquización',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'estructura que establece orden, refiere ordenar algo según la jerarquía de niveles, grados, importancia, etc.',
     },
     {
-      termino: 'Moda',
+      termino: 'Normatividad',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'conjunto de leyes o reglamentos que contienen las conductas y procedimientos que deben cumplir las personas en instituciones, empresas, países, etc. ',
     },
     {
-      termino: 'Diseña',
+      termino: 'Portafolio de productos y servicios',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'recopilación de productos y servicios ofrecidos por las empresas, es una herramienta fundamental para las ventas.',
     },
     {
-      termino: 'DIseño',
+      termino: 'Protocolo',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'sistema de reglas que establecen la estandarización tanto de la comunicación como de procesos que se llevan a cabo en una empresa.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Recursos tecnológicos',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'medio que se vale de la tecnología para cumplir el propósito para el cual se hizo, puede ser una computadora, un teléfono móvil, una máquina, etc.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Relaciones interpersonales',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Interés Inferior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'interacción entre dos o más personas, se trata de relaciones sociales donde se dan sentimientos, emociones como por ejemplo el amor, los gustos, los intereses, etc.',
     },
   ],
   complementario: [
     {
-      tema: 'Estrategias para la segmentación de mercados',
-      referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+      texto:
+        '<em>ISO Tools Excellence</em>. (2017). Seguridad de la información. ',
+      tipo: 'Blog',
+      link:
+        'https://www.pmg-ssi.com/2017/08/norma-iso-27002-politica-seguridad/ ',
     },
     {
-      tema: 'Estrategias para la segmentación de mercados',
-      referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+      texto:
+        'Blanco, G., C. (2013). Comunicación y atención al cliente. Macmillan Iberia, S.A. ',
+      tipo: 'Libro',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/42955 ',
     },
     {
-      tema: 'Estrategias para la segmentación de mercados',
-      referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+      texto:
+        'Orozco, L., J. D. D. (2016). Protocolo para la organización de actos oficiales y empresariales. IC Editorial. ',
+      tipo: 'Libro',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/44621 ',
     },
   ],
   creditos: {
@@ -412,7 +339,28 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+      },
+      {
+        nombre: 'Esperanza Cardona Grisales',
+        cargo: 'Experto temático',
+        centro: 'Centro de Comercio y Servicios Regional - Cauca',
+      },
+      {
+        nombre: 'Alex García',
+        cargo: 'Diseñador instruccional',
+        centro:
+          'Centro de la Industria, la Empresa y los Servicios Regional - Norte de Santander',
+      },
+      {
+        nombre: 'Alix Cecilia Chinchilla Rueda',
+        cargo: 'Asesor metodológico',
+        centro: 'Centro de Diseño y Metrología Regional - Distrito Capital',
+      },
+      {
+        nombre: 'José Gabriel Ortiz Abella',
+        cargo: 'Corrector de estilo',
+        centro: 'Centro de Diseño y Metrología Regional - Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -428,41 +376,72 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Yuly Rey',
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios Regional - Tolima',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Yuly RWilson Andrés Arenales Cáceres',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+      },
+      {
+        nombre: 'Camilo Andrés Bolaño Rey',
+        cargo: 'Locución',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+      },
+      {
+        nombre: 'Ernesto Navarro Jaimes',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+      },
+      {
+        nombre: 'Oleg Litvin',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+      },
+      {
+        nombre: 'Yicelly Estefania Mesa Silva',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+      },
+      {
+        nombre: 'Ludwyng Corzo García',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+      },
+      {
+        nombre: 'Carlos Andrés Díaz Pinto',
+        cargo: 'Desarrollo Front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+      },
+      {
+        nombre: 'Yuli Marcela Gómez Tarazona',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
     ],
     gestoresRepositorio: [
-      {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
