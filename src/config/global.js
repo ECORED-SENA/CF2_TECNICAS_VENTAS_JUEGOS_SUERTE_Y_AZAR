@@ -1,10 +1,11 @@
 export default {
   global: {
-    componenteFormativo: 'Protocolos de servicio al cliente',
+    componenteFormativo: 'Proceso de ventas en juegos de suerte y azar',
     descripcionCurso:
-      'Se debe planificar de forma integral lo que se va a ofrecer durante el proceso de venta y una herramienta eficaz para garantizarlo es la aplicación del protocolo con visión incluyente. Todos los funcionarios de atención al cliente deben estar en constante capacitación para garantizar que la experiencia que él viva certifique la calidad del producto o servicio recibido.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
+      'El presente componente explica de manera detallada los conocimientos para llevar a cabo ventas efectivas de los juegos de suerte y azar en Colombia, con la finalidad de aumentar los ingresos de vendedores y organizaciones, instruyendo a vendedores para la adquisición de destrezas en estrategias de fidelización y los procesos administrativos que implica el cierre de la venta diaria.',
+    imagenBannerPrincipal: require('@/assets/curso/images/header/banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/images/header/fondo-banner-principal.svg'),
+    fondoBannerInterno: require('@/assets/curso/images/header/interno.svg'),
   },
   menuPrincipal: {
     menu: [
@@ -23,26 +24,20 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Recursos tecnológicos para atender al cliente ',
+        titulo: 'Proceso de ventas',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Tipos',
+            titulo: 'Protocolo de la venta',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Características',
+            titulo: 'Fidelización',
             hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Manejo',
-            hash: 't_1_3',
           },
         ],
       },
@@ -50,27 +45,40 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo:
-          'Normatividad de seguridad de la información para contactar al cliente',
+        titulo: 'Estrategia de ventas',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Estructura',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Claves para definir la estrategia',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Portafolio de servicios',
+        titulo: 'Ventas online (en línea)',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Elementos',
+            titulo: 'Aplicabilidad en el campo',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Características',
+            titulo: 'Adaptación al futuro del trabajo',
             hash: 't_3_2',
           },
         ],
@@ -79,63 +87,42 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'La comunicación con el cliente',
+        titulo: 'Objeciones',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.1',
-            titulo: 'Características, tipos y elementos',
-            hash: 't_4_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.2',
-            titulo: 'Jerarquización',
-            hash: 't_4_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.3',
-            titulo: 'Técnicas de comunicación oral, escrita y corporal',
-            hash: 't_4_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.4',
-            titulo: 'Técnicas de comunicación efectiva y asertiva',
-            hash: 't_4_4',
-          },
-        ],
       },
       {
         nombreRuta: 'tema5',
         icono: 'far fa-file-alt',
         numero: '5',
-        titulo:
-          'Etiqueta y protocolo en la atención al cliente, reglas y normas',
+        titulo: 'Cierre de la venta',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.1',
+            titulo: 'Algunos errores para cerrar la venta',
+            hash: 't_5_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.2',
+            titulo: 'Prácticas para cerrar la venta',
+            hash: 't_5_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.3',
+            titulo: 'Tipos de cierre',
+            hash: 't_5_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema6',
         icono: 'far fa-file-alt',
         numero: '6',
-        titulo: 'Relaciones interpersonales',
+        titulo: 'Arqueo',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '6.1',
-            titulo: 'Tipos',
-            hash: 't_6_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '6.2',
-            titulo: 'Factores',
-            hash: 't_6_2',
-          },
-        ],
       },
     ],
     subMenu: [
@@ -180,150 +167,90 @@ export default {
   referencias: [
     {
       referencia:
-        'Arismendy, A. (2013). ¿Cómo vender?, manual de ventas y atención al cliente. A. Arismendy.',
-    },
-    {
-      referencia: 'Barbera, G. E. (2013). El estilo e-portafolio. UOC. ',
-    },
-    {
-      referencia:
-        'Cajal, F., A. (2020). Portafolio de servicios: tipos, partes y ejemplos. Lifeder. ',
-    },
-    {
-      referencia:
-        'Cámara de Comercio de Medellín. (s. f.). Protocolo de atención a personas en situación de discapacidad. ',
+        'CEUPE magazine. (2020). ¿En qué consiste el cierre de la venta? CEUPE magazine.',
       link:
-        'https://www.camaramedellin.com.co/portals/0/transparencia/documentos/2019/protocolo_atencion_%20personas_en_situaci%c3%b3n_de_discapacidad_ccma.pdf',
+        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
     },
     {
       referencia:
-        'Carrera, F., Jiménez, G., A., y Viera, L., L. (2019). Técnicas de comunicación. IC Editorial',
-    },
-    {
-      referencia:
-        'Fernández, A. M. (2021). Definición de relaciones interpersonales. Tipos, instancias y rasgos. Definicion.com',
-      link: 'https://definicion.com/relaciones-interpersonales/',
-    },
-    {
-      referencia:
-        'Funiber.org. (2017). Beneficios de incorporar tecnología a las empresas.',
+        'Espacio digital. (2020).¿Cómo hacer que tu marca destaque en redes sociales? Espacio digital. ',
       link:
-        'https://blogs.funiber.org/direccion-empresarial/2017/06/14/funiber-beneficios-tecnologia-empresas',
+        'https://www.espaciodigital.com.co/blog/destacar-marca-redes-sociales/ ',
     },
     {
       referencia:
-        'IMF-formación.com. (2019). Atención al cliente a través de medios tecnológicos. Blog marketing.',
+        'Kirberg, A. (2017). Marketing de fidelización. Ecoe Ediciones.',
+    },
+    {
+      referencia:
+        'Pérez, A. (2018). Estrategias de ventas: definición en 6 claves e implementación en 4 pasos. OBS Business School.',
       link:
-        'https://blogs.imf-formacion.com/blog/marketing/atencion-al-cliente-medios-tecnologicos/?sp=6358541982459737508418/page/4',
+        'https://www.obsbusiness.school/blog/estrategias-de-ventas-definicion-en-6-claves-e-implementacion-en-4-pasos',
     },
     {
       referencia:
-        'Instituto Nacional de Ciberseguridad. (2020). Cómo proteger la información de los clientes.',
+        'Saldarriaga, J., Vélez, C. & Betancur, G. (2014). Estrategia de mercadeo de los vendedores ambulantes. Semestre Económico Revista Científica.',
       link:
-        'https://www.incibe.es/protege-tu-empresa/blog/proteger-informacion-personal-los-clientes-empresa',
-    },
-    {
-      referencia: 'Julia, M. U. (2020). Características de la comunicación.',
-      link: 'https://www.caracteristicas.co/comunicacion',
+        'https://revistas.udem.edu.co/index.php/economico/article/view/1828/ ',
     },
     {
       referencia:
-        'Mateos, M. Á. (2012). Atención básica al cliente. IC Editorial.',
-    },
-    {
-      referencia:
-        'Models, Inc., & Communication. (2011). Shannon and weaver model of communication. Communication theory.',
-      link:
-        'https://www.communicationtheory.org/shannon-and-weaver-model-of-communication/',
-    },
-    {
-      referencia:
-        'Novella, R., Repetto, A., Robino, C., & Rucci, G. (2018). Millennials en América Latina y el Caribe: ¿trabajar o estudiar? (resumen ejecutivo). Interamerican Development Bank. ',
-      link: 'https://doi.org/10.18235/0001411',
-    },
-    {
-      referencia:
-        'Oliveras, R., I. (2009). El cliente y la calidad en el servicio. Editorial Trillas.',
-    },
-    {
-      referencia:
-        'Pérez, R., W. (2021). El protocolo en la atención al cliente.',
-      link:
-        'https://www.protocolo.org/social/etiqueta-social/el-protocolo-en-la-atencion-al-cliente.html',
-    },
-    {
-      referencia: 'Tiposde.com. (2017). Tipos de relaciones interpersonales.',
-      link: 'https://www.tiposde.com/relaciones_interpersonales.html',
+        'SENA. (2021). Retener clientes: fidelizar clientes [video]. YouTube',
+      link: 'https://youtu.be/64IsYDBncao ',
     },
   ],
   glosario: [
     {
-      termino: 'Canal de comunicación',
+      termino: 'Código QR',
       significado:
-        'medio físico a través del cual se puede comunicar, sirve para el intercambio de información entre el emisor y el receptor ya sea oral, escrito, lenguaje de señas, etc.',
+        'Es la evolución del código de barras, se trata de una impresión con un código visual, el cual es leído y descifrado por lectores ópticos (cámaras, láser) que transmiten los datos a una máquina o computadora.',
     },
     {
-      termino: 'Comunicación',
+      termino: 'Cuarta revolución industria',
       significado:
-        'acción consciente de intercambio entre dos o más personas para recibir o trasmitir información',
+        'Industria 4.0 es el término por el cual se denomina la actual etapa sobre las formas productivas y de vida por la que la humanidad está atravesando. Su base parte de las anteriores revoluciones industriales y se soporta además con el uso y posibilidades de la ciencia y la tecnología, entre ellas el manejo de datos, el procesamiento, la comunicación de información, los avances de  bioingeniería y otras ramas de la ciencia e ingeniería.',
     },
     {
-      termino: 'Etiqueta',
+      termino: 'Fuerza de venta',
       significado:
-        'norma de conducta que cumple expectativas en el comportamiento social, gana importancia en los eventos públicos y privados que requieran de ceremonia.',
+        'Se refiere al equipo de personas responsables de generar una efectiva producción a través de la oferta y venta de servicios y productos.',
     },
     {
-      termino: 'Jerarquización',
+      termino: 'Merchandising',
       significado:
-        'estructura que establece orden, refiere ordenar algo según la jerarquía de niveles, grados, importancia, etc.',
+        'Conjunto de productos publicitarios para promocionar un producto, promociones, una marca, etc.',
     },
     {
-      termino: 'Normatividad',
+      termino: 'Moda',
       significado:
-        'conjunto de leyes o reglamentos que contienen las conductas y procedimientos que deben cumplir las personas en instituciones, empresas, países, etc. ',
+        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
     },
     {
-      termino: 'Portafolio de productos y servicios',
+      termino: 'Segmentos de mercado',
       significado:
-        'recopilación de productos y servicios ofrecidos por las empresas, es una herramienta fundamental para las ventas.',
+        'Dividir los compradores en segmentos más pequeños, estas divisiones cumplen con criterios en común para tener claridad hacia qué “target” orientar las ventas.',
     },
     {
-      termino: 'Protocolo',
+      termino: 'Target',
       significado:
-        'sistema de reglas que establecen la estandarización tanto de la comunicación como de procesos que se llevan a cabo en una empresa.',
-    },
-    {
-      termino: 'Recursos tecnológicos',
-      significado:
-        'medio que se vale de la tecnología para cumplir el propósito para el cual se hizo, puede ser una computadora, un teléfono móvil, una máquina, etc.',
-    },
-    {
-      termino: 'Relaciones interpersonales',
-      significado:
-        'interacción entre dos o más personas, se trata de relaciones sociales donde se dan sentimientos, emociones como por ejemplo el amor, los gustos, los intereses, etc.',
+        'Término usado para definir el segmento de mercado objetivo, es decir, a qué tipo de público o qué características en común tienen para orientar las ventas hacia ese segmento.',
     },
   ],
   complementario: [
     {
-      texto:
-        '<em>ISO Tools Excellence</em>. (2017). Seguridad de la información. ',
-      tipo: 'Blog',
+      tema: 'Adaptación del futuro trabajo',
+      referencia:
+        'Espacio digital. (2020). ¿Cómo hacer que tu marca destaque en redes sociales? Espacio digital. ',
+      tipo: 'Artículo web',
       link:
-        'https://www.pmg-ssi.com/2017/08/norma-iso-27002-politica-seguridad/ ',
+        'https://www.espaciodigital.com.co/blog/destacar-marca-redes-sociales/',
     },
     {
-      texto:
-        'Blanco, G., C. (2013). Comunicación y atención al cliente. Macmillan Iberia, S.A. ',
-      tipo: 'Libro',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/42955 ',
-    },
-    {
-      texto:
-        'Orozco, L., J. D. D. (2016). Protocolo para la organización de actos oficiales y empresariales. IC Editorial. ',
-      tipo: 'Libro',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/44621 ',
+      tema: 'Cierre de la venta',
+      referencia:
+        'SENA. (2021). El cierre de ventas: introducción [video]. YouTube',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=y3NqB6wUkuE ',
     },
   ],
   creditos: {
@@ -339,28 +266,27 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Esperanza Cardona Grisales',
+        nombre: 'Jaime Hernán Tejada Llano',
         cargo: 'Experto temático',
-        centro: 'Centro de Comercio y Servicios Regional - Cauca',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
       {
-        nombre: 'Alex García',
-        cargo: 'Diseñador instruccional',
-        centro:
-          'Centro de la Industria, la Empresa y los Servicios Regional - Norte de Santander',
+        nombre: 'Claudia Milena Hernández Naranjo',
+        cargo: 'Diseñadora Instruccional',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
       },
       {
         nombre: 'Alix Cecilia Chinchilla Rueda',
         cargo: 'Asesor metodológico',
-        centro: 'Centro de Diseño y Metrología Regional - Distrito Capital',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
       {
-        nombre: 'José Gabriel Ortiz Abella',
-        cargo: 'Corrector de estilo',
-        centro: 'Centro de Diseño y Metrología Regional - Distrito Capital',
+        nombre: 'Julia Isabel Roberto',
+        cargo: 'Correctora de estilo',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -376,72 +302,41 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: 'Yuly Rey',
+        nombre: 'Diana Carolina Acevedo Baron',
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Zuleidy María Ruíz Torres',
-        cargo: 'Producción audiovisual',
-        centro: 'Centro de Comercio y Servicios Regional - Tolima',
-      },
-      {
-        nombre: 'Yuly RWilson Andrés Arenales Cáceres',
-        cargo: 'Producción audiovisual',
+        nombre: 'Gustavo Adolfo Marún Suárez',
+        cargo: 'Desarrollo front-end',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        nombre: 'Nombre',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Camilo Andrés Bolaño Rey',
-        cargo: 'Locución',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
-      },
-      {
-        nombre: 'Ernesto Navarro Jaimes',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
-      },
-      {
-        nombre: 'Oleg Litvin',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
-      },
-      {
-        nombre: 'Yicelly Estefania Mesa Silva',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
-      },
-      {
-        nombre: 'Ludwyng Corzo García',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
-      },
-      {
-        nombre: 'Carlos Andrés Díaz Pinto',
-        cargo: 'Desarrollo Front-end',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
-      },
-      {
-        nombre: 'Yuli Marcela Gómez Tarazona',
+        nombre: 'Nombre',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
     ],
     gestoresRepositorio: [
+      {
+        nombre: 'Álvaro Andrés Angarita Ramirez',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: 'Daniel Felipe Varón Molina',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',

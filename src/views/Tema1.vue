@@ -2,218 +2,230 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="zoom-in-left")
       .titulo-principal__numero
         span 1
-      h1 Recursos tecnológicos para atender al cliente
+      h1 Proceso de ventas
 
-    p.mb-5 De acuerdo con el Instituto Nacional de Ciberseguridad de España, muchas empresas aún cuentan con métodos tradicionales que son poco efectivos para atender a los clientes; ellas continúan utilizando el teléfono e incluso personalmente, mientras que las nuevas generaciones cada día utilizan más las nuevas tecnologías.
+  .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-1.mb-0.mg-top-1.cs
 
-    .row.justify-center.mb-5(data-aos="fade-up") 
-      .col-12.col-lg-10
-        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__texto.px-5.py-4.posit_1
-            p Los <em>millennials</em> (personas nacidas entre 1980 y 1995, también llamados generación Y, son reconocidos por tener sentido de equipo, actitud positiva y espíritu racional) usan para comunicarse los chats y sus teléfonos móviles. Por eso, las empresas deben implementar sistemas de atención teniendo en cuenta las preferencias de estos consumidores, ya que existe una transformación digital para la atención al cliente (Novella et al., 2018).
-          .bloque-texto-g__img.posit_2(
-            :style="{'background-image': `url(${require('@/assets/curso/tema1/t1-1.png')})`}") 
-    
-    p.mb-5 Las tres características de un sistema eficaz de atención al cliente son las siguientes:
+    .row.justify-content-star.my-5
+      .col-lg-5(data-aos="fade-right")
+        img(src='@/assets/curso/images/tema1/img_1.svg'  alt='', style="width:440px; display:block; margin:auto 0 ;").mb-3
+      .col-lg-7(data-aos="fade-left") 
+        .cajon.color-custom-2.p-5.mb-5
+          p.mb-3 “La práctica hace al maestro”, una de las frases más comunes siendo también aplicada a todos los oficios sin ser una excepción a las ventas y es que para muchos, vender es una tarea muy difícil; claro, quizás nunca lo han hecho o cuando lo intentaron no tenían la preparación para hacerlo y quedan con este prejuicio. A medida que un vendedor gana experiencia y conocimiento la acción de tratar al cliente y cerrar las ventas se va haciendo tan natural, que al cabo de un tiempo no debería significar una labor de alta complejidad. Es por eso que para muchos la habilidad de las ventas es más exitosa que para otras personas, debido a que el proceso debe ser integrado a estrategias innatas como a estrategias determinadas por la organización, para finalmente facilitar el cumplimiento de las ventas comerciales. 
+  .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5 
 
-    .row
-      .col-lg-4(data-aos="fade-down")
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema1/t1-2.svg' alt='AvatarTop')
-          .tarjeta.bgr.alto.align-items-center
-            .p-3.ml
-              p.ms-3.mb-0 La rapidez.
-      .col-lg-4(data-aos="fade-up")
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema1/t1-3.svg' alt='AvatarTop')
-          .tarjeta.bgr.alto
-            .p-3.ml
-              p.ms-3.mb-0 Independizar las comunicaciones del canal.
-      .col-lg-4(data-aos="fade-down")
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema1/t1-4.svg' alt='AvatarTop')
-          .tarjeta.bgr.alto
-            .p-3.ml
-              p.ms-3.mb-0 Identificar el tipo de comunicación del cliente.
-    
-    p.mb-5 A continuación, se presenta el siguiente recurso, donde se amplían los detalles de cada una de estas características.
+    p.mb-5 En el siguiente video del SENA encontrará de manera general el significado del proceso de ventas con sus etapas:
 
-    .bg_grad-01(data-aos="fade-down")
-      .row.justify-center.pt-5.pb-5
-        .col-12.col-md-10
-          figure
-            .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/8gZTBdLt_IM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    
-    separador
+    .row.justify-content-center.align-items-center.my-3
+      .col-lg-10(data-aos="zoom-in-down")
+        .tarjeta.color-acento-contenido.p-4.mb-5
+          .row.justify-content-center.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/curso/images/tema1/ico_1.svg",  alt='', style="width:60px; display:block; margin:auto 0 ;")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.mb-1 Enlace web.  Proceso de venta
+                  p.text-small https://www.youtube.com/watch?v=wdFK6E_D2Ro
+                .col-md-auto
+                  a.boton.color-acento-contenido.texto-blanco(href="https://www.youtube.com/watch?v=wdFK6E_D2Ro" target="_blank")
+                    span Ver
+                    .row
+                      .col-auto
+                        img.mx-4(src="@/assets/curso/images/tema1/Ico-video.svg",  alt='', style="width:20px; display:block; margin:auto 0 ;")
 
-    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.1 Tipos
+    Separador 
 
-    p Los canales de atención al cliente son los medios que ponen las empresas a disposición de los clientes para comunicarse con ellos, en estos canales el cliente puede solicitar soporte técnico, reclamaciones, etc.
-    p.mb-5 Los tipos de canales de atención al cliente utilizados por las empresas en la actualidad son:
+    #t_1_1.titulo-segundo
+      .h2 1.1   Protocolo de la venta
 
-    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
-      .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
-        .indicador--hover(v-if="indicadorTarjetaSlide")
-        .tarjeta-slide__contenedor
-          .tarjeta-slide__contenido.p-4.p-xl-5
-            figure.justify-center.mb-3
-              img.img160(src='@/assets/curso/tema1/t1-6.svg' alt='AvatarTop')
-            h1 Redes sociales
-            p.mb-0 Página <em>web</em> o aplicación en la que los internautas intercambian información personal y contenidos multimedia de modo que crean una comunidad de amigos virtual e interactiva. 
-          .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-5.png')})`}")
-      .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
-        .indicador--hover(v-if="indicadorTarjetaSlide")
-        .tarjeta-slide__contenedor
-          .tarjeta-slide__contenido.p-4.p-xl-5
-            figure.justify-center.mb-3
-              img.img160(src='@/assets/curso/tema1/t1-8.svg' alt='AvatarTop')
-            h1 WhatsApp
-            p.mb-0 Aplicación que permite enviar y recibir mensajes instantáneos a través de un teléfono móvil (celular). 
-          .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-7.png')})`}")
-      .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
-        .indicador--hover(v-if="indicadorTarjetaSlide")
-        .tarjeta-slide__contenedor
-          .tarjeta-slide__contenido.p-4.p-xl-5
-            figure.justify-center.mb-3
-              img.img160(src='@/assets/curso/tema1/t1-10.svg' alt='AvatarTop')
-            h1 <em>Livechat y chatbot</em>
-            p.mb-0 Comunicación en tiempo real; los usuarios escriben mensajes en su teclado, y el texto aparece automáticamente y al instante en el monitor de todos los participantes. 
-          .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-9.png')})`}")
-      .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
-        .indicador--hover(v-if="indicadorTarjetaSlide")
-        .tarjeta-slide__contenedor
-          .tarjeta-slide__contenido.p-4.p-xl-5
-            figure.justify-center.mb-3
-              img.img160(src='@/assets/curso/tema1/t1-12.svg' alt='AvatarTop')
-            h1 Móvil
-            p.mb-0 Dispositivo inalámbrico electrónico que permite tener acceso a la red de telefonía celular o móvil. 
-          .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-11.png')})`}")
-      .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
-        .indicador--hover(v-if="indicadorTarjetaSlide")
-        .tarjeta-slide__contenedor
-          .tarjeta-slide__contenido.p-4.p-xl-5
-            figure.justify-center.mb-3
-              img.img160(src='@/assets/curso/tema1/t1-14.svg' alt='AvatarTop')
-            h1 <em>E-mail</em>
-            p.mb-0 Sistema que permite el intercambio de mensajes entre distintas computadoras interconectadas a través de una red. 
-          .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-13.png')})`}")
+    p.mb-5 Existen diferentes fuentes para conocer las fases o pasos para las ventas efectivas, estas pueden diferir por la naturaleza del mercado, las condiciones y costumbres regionales, el comportamiento de consumo de un área específica; pero todas se basan en:
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-md-6.col-lg-8.col-xl-8(data-aos="fade-right")
+         img(src='@/assets/curso/images/tema1/img_2.svg')
+
+
+    .row.justify-content-center.align-items-center.mb-3      
+      .col-auto.onTop.p-3(data-aos="zoom-in-down")
+       img(src="@/assets/curso/images/tema1/img_3.png" alt='AvatarTop', style="width:450px;").m-auto    
+      .col-lg(data-aos="zoom-in-down")
+        .custom_box_left
+          p En este caso, según el target enmarcado en este componente formativo, los vendedores de juegos de suerte y azar deben ejecutar de manera disciplinada los pasos que se muestran en el siguiente mapa conceptual, en el cual se definen nueve pasos para la venta efectiva, aplicada a la oferta de productos y servicios de juegos de suerte y azar. Si bien no es un estándar técnico que los vendedores están obligados a seguir, son recomendaciones importantes para alcanzar el éxito de manera más efectiva. 
+
+    p.mb-3 Para cualquier protocolo juega un papel fundamental la disciplina, este elemento permite seguir una secuencia de cada fase teniendo claridad de los propósitos de cada una, ver figura.
+
+
+    .row.justify-content-center.align-items-center.my-3
+      .col-lg-10(data-aos="zoom-in-down")
+        .tarjeta.color-acento-contenido.p-4.mb-5
+          .row.justify-content-center.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/curso/images/tema1/ico_3.svg",  alt='', style="width:60px; display:block; margin:auto 0 ;")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.mb-1 Figura 1.
+                  p.text-small Resumen protocolo de la venta
+                .col-md-auto
+                  a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/Figura_1.pdf')" target="_blank")
+                    span.me-1 Descargar
+                    .row
+                      .col-12
+                        img.mx-1(src="@/assets/curso/images/tema1/ico-descarga.svg",  alt='', style="width:18px; display:block; margin:auto 0 ;")
+
+    Separador 
+
+    #t_1_2.titulo-segundo
+      .h2 1.2. Fidelización
+
+
+    p.mb-5 En el día a día de comercializadoras y vendedores, en muchos casos, se comete el error de destinar toda su atención en concentrar sus esfuerzos para captar nuevos clientes, descuidando ocasionalmente a los clientes habituales, incluso, llegando a perderlos. Hoy en día se ven más estos casos debido a la gran presencia del mundo digital, donde ahora los clientes quedan expuestos ante la infinidad de ofertas que se encuentran en el mercado virtual, perdiendo su fidelidad hacia el vendedor y cambiando permanentemente a sus proveedores.  
+
+
+    .row.justify-content-center.align-items-center.mb-3
+      .col-lg-10(data-aos="fade")
+        .cajon.color-custom-3.p-4.mb-3
+          p.mb-3 Es importante recordar que la venta no es la terminación de las cosas como se cree normalmente. Para el comprador se trata del inicio de una relación, lo que para algunos vendedores es el final del proceso, para el comprador podría tratarse del inicio de un acto habitual que se debe cuidar y prestar mucha atención.
+
+
+        .row.align-items-center.justify-content-center.mb-5  
+          .col-lg-7(data-aos="fade-left") 
+            .cajon.color-custom-4.p-4.mb-3
+              p.mb-3 Se está en un periodo en el que el enfoque estratégico para el éxito no son las ventas propiamente, hay otros enfoques que toman mucha importancia como el enfoque al cliente basado en el marketing, se podría resumir en la frase “hacer que le compren”, es una pequeña expresión que podría marcar la diferencia, es decir, el mayor éxito son aquellas empresas que logran a través del servicio al cliente, publicidad, principios éticos, etc., vender sin ofrecer o vender sin rogar. Es importante la ventaja que tienen los vendedores de juegos de suerte y azar, pues los clientes no compran un billete de lotería, ellos realmente compran una esperanza o una ilusión de ganar, es allí donde el servicio personalizado toma un papel primordial. 
+          .col-lg-5.mb-3(data-aos="fade-right") 
+            img(src='@/assets/curso/images/tema1/img_5.png'  alt='')
+
+    p.mb-5 Como ya se ha mencionado sobre la importancia de la atención al cliente, en este componente se hace notar, además, las siguientes variables:
+
+    .tarjeta.bg_grad-02.p-4.mb-5(data-aos="zoom-in-up")
+      SlyderA
+        .row.justify-content-center.align-items-center.p-5
+          .col-lg-5
+            h3 Gestión de quejas y reclamos
+            p.mb-3 La gestión de quejas y reclamos está definida por el protocolo de cada organización, por ello, debe como vendedor estar al tanto de este tipo de procedimientos para no cometer errores al dar información errada a un cliente. 
+
+            p.mb-3 Es importante conocer aspectos como:
+
+            ul.lista-ul
+              li 
+                i.fas.fa-check.c-check
+                | Conocer los tiempos para dar respuesta a una queja. 
+              li
+                i.fas.fa-check.c-check
+                | Por cual medio se canalizan las quejas, virtual, presencial, telefónico, etc. 
+              li 
+                i.fas.fa-check.c-check
+                | Si hay un funcionario, área o departamento en la organización de apoyo para esta gestión.
+             
+          .col-lg-7
+            img.mt-3(src="@/assets/curso/images/tema1/img_6.png").mb-3
           
-    P.mb-5(data-aos="fade-right") A continuación, se verán los tipos de canales utilizados por los clientes.
 
-    .bg_grad-01(data-aos="fade-down")
-      .row.justify-center.pt-5.pb-5
-        .col-12.col-md-10
-          figure
-            .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/7fnr7D7cl7M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        .row.justify-content-center.align-items-center.p-5
+          .col-lg-5
+            h3 Recepción de la queja
+            p.mb-3 Es vital para un vendedor saber actuar frente a una situación de queja o reclamo del cliente,  no solo depende de:
 
-    separador
-
-    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.2 Características
-
-    p.mb-5 Los recursos tecnológicos para atender al cliente cuentan con características tales como control y seguimiento, y permiten reclamaciones telefónicamente, por página <em>web</em>, correo electrónico o cualquier otro medio que utilice la empresa. Las características más importantes de los recursos tecnológicos son las siguientes:
-
-    .tarjeta.bgr_1.p-4.mb-5(data-aos="zoom-out")
-      SlyderA(tipo="b")
-        .row.p-3.p-lg-5
-          .col-md-5
-            div 
-              img.img70.mb-3(src='@/assets/curso/tema1/t1-15.svg', alt='Texto que describa la imagen')
-              h4.bgr_2 Avance tecnológico
-              p La tecnología es parte de nuestras vidas; facilita la comunicación interpersonal sin importar donde esté. La llegada de últimas tecnologías para la conectividad, como 5G, o la inteligencia artificial hace que cada vez se pueda contar con avances tecnológicos. Las TIC están presentes en todos los ámbitos de la sociedad. El ser humano no se detiene en la búsqueda de avances tecnológicos.
-          .col-md-7.mb-4.mb-md-0
-            figure
-              img(src='@/assets/curso/tema1/t1-16.png', alt='Texto que describa la imagen')
-        .row.p-3.p-lg-5
-          .col-md-5
-            div 
-              img.img70.mb-3(src='@/assets/curso/tema1/t1-15.svg', alt='Texto que describa la imagen')
-              h4.bgr_2 Intercambio de productos y servicios
-              p Las diferentes redes sociales se encuentran a disposición de todo tipo de público, y estas se han convertido en aliadas importantes para la oferta y la demanda de toda clase de productos y servicios que son ofertados sin importar el tamaño de la empresa que los ofrece. Se ha dinamizado la economía del país, ya que son muchos los negocios que se hacen a través de ellas.
-          .col-md-7.mb-4.mb-md-0
-            figure
-              img(src='@/assets/curso/tema1/t1-17.png', alt='Texto que describa la imagen')
-        .row.p-3.p-lg-5
-          .col-md-5
-            div 
-              img.img70.mb-3(src='@/assets/curso/tema1/t1-15.svg', alt='Texto que describa la imagen')
-              h4.bgr_2 <em>Software</em> para optimizar
-              p El <em>software</em> en las empresas agrega valor, ya que ayuda a alcanzar los objetivos, reduce costos y aumenta las ventas. También es una ventaja que la información de la empresa se comparta de manera clara, sencilla y rápida. El software especializado es una herramienta muy útil a la hora de comprobar datos como estados de resultados, balances, bases de datos de clientes etc. Cada vez más son indispensables para la gerencia de las empresas.
-          .col-md-7.mb-4.mb-md-0
-            figure
-              img(src='@/assets/curso/tema1/t1-18.png', alt='Texto que describa la imagen')
-        .row.p-3.p-lg-5
-          .col-md-5
-            div 
-              img.img70.mb-3(src='@/assets/curso/tema1/t1-15.svg', alt='Texto que describa la imagen')
-              h4.bgr_2 Dar y conocer las oportunidades 
-              p.mb-3 El acceso a la tecnología les permite a las empresas adaptarse al mercado actual, así como a subsistir en un mercado cada vez más competitivo. Estos son  algunos beneficios que las empresas obtienen de la tecnología:
-              ul.lista-ul--color
+            ul.lista-ul
                 li 
-                  i.fas.fa-check-circle.colr
-                  | Optimización de procesos.
+                  i.fas.fa-check.c-check
+                  | Conservar la calma.
+                li
+                  i.fas.fa-check.c-check
+                  | Saber escuchar.
                 li 
-                  i.fas.fa-check-circle.colr
-                  | Resultados tangibles.
-                li 
-                  i.fas.fa-check-circle.colr
-                  | Valor agregado.
-                li 
-                  i.fas.fa-check-circle.colr
-                  | Información integrada.
+                  i.fas.fa-check.c-check
+                  | Tener buena actitud. 
+
+            p.mb-3 También es importante conocer el protocolo de la organización, para saber informar al cliente cuál es el procedimiento a seguir frente a esta situación. Pero una recomendación general es nunca decir “eso no es conmigo”. 
+            p.mb-0 Se debe tratar de mantener la buena relación cliente-vendedor, ante cualquier situación de inconformidad y es un derecho del cliente que su queja sea recibida, radicada o recepcionada.
+          .col-lg-7
+            img.mt-3(src="@/assets/curso/images/tema1/img_8.png").mb-3
+
+        .row.justify-content-center.align-items-center.p-5
+          .col-lg-5
+            h3 Informar al cliente sobre las acciones sobre la queja
+            p.mb-3 Sea cual sea el proceso a seguir en la empresa, si el cliente pregunta por el estado de la queja es su deber hacerle las cosas fáciles para no aumentar su frustración. Si la solución no está en manos del vendedor se deben dar todas las indicaciones que sean necesarias para informar sobre el estado de la queja y demostrar siempre su acompañamiento en el proceso.
+
+            p.mb-0 En caso de que entre a algún proceso que demore días es importante informarle que existen tiempos de espera; pero que estará atento a brindar apoyo en todo lo que necesite. 
+
+          .col-lg-7
+            img.mt-3(src="@/assets/curso/images/tema1/img_9.png").mb-3
 
 
-          .col-md-7.mb-4.mb-md-0
-            figure
-              img(src='@/assets/curso/tema1/t1-19.png', alt='Texto que describa la imagen')
-       
-    .row.justify-center
-      .col-12.col-lg-6
-        p.text-bold.bgr_3.p-3 Los recursos tecnológicos de las empresas NO son solo los computadores.
-    
-    separador
+        .row.justify-content-center.align-items-center.p-5
+          .col-lg-5
+            h3 Analice las oportunidades de los reclamos
+            p.mb-3 Esta situación de inconformidad de los clientes permiten el análisis para procurar convertir amenazas en oportunidades y debilidades en fortalezas, de este modo, los reclamos y las quejas se vuelven insumos para mejorar el negocio y tomar medidas correctivas que faciliten las oportunidades de venta y el servicio al cliente. 
 
-    #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.3 Manejo
+            p.mb-3 Los vendedores que mejor resuelven quejas y reclamos son aquellos que han tenido clientes, que después de una situación de inconformidad, vieron la oportunidad de atenderlos mejor, con este tipo de retroalimentación y mejora se logra conocer las claves para la “fidelización de los clientes”.
 
-    p El manejo de recursos tecnológicos para atender al cliente tiene que ver con la implementación de nuevos dispositivos, la automatización y la inteligencia artificial, con los cuales se puede conseguir que las necesidades de los clientes queden satisfechas.
-    p.mb-5 En el manejo de los recursos tecnológicos para atender al cliente se debe tener en cuenta:
+          .col-lg-7
+            img.mt-3(src="@/assets/curso/images/tema1/img_10.png").mb-3
 
-    .row.mb-5
-      .col-md-4.col-lg.mb-5.mb-lg-0(data-aos="fade-down-right")
-        .tarjeta-avatar
-          img(src='@/assets/curso/tema1/t1-20.svg' alt='AvatarTop')
-          .tarjeta.bgr_4
-            .p-4
-              h2.text-center Estudiar y conocer a sus clientes
-              p.text-center.mb-0 Cada cliente es único. Debe atenderlos de forma personalizada. Es importante conocer su perfil. Percibir muy bien lo que su cliente busca para que le ofrezca productos y servicios con excelente atención. Mantener actualizados sus datos, esto ayudará a entender las necesidades de los clientes.
-      .col-md-4.col-lg.mb-5.mb-lg-0(data-aos="fade-down-left")
-        .tarjeta-avatar
-          img(src='@/assets/curso/tema1/t1-21.svg' alt='AvatarTop')
-          .tarjeta.bgr_4
-            .p-4
-              h2.text-center.mb-5 Establecer lazos con el cliente
-              p.text-center.mb-0 Una de las estrategias que ayuda a crear empatía con el cliente es el <em>marketing</em> relacional. Las empresas deben crear maneras para establecer lazos fuertes y asertivos con los clientes. 
-      .col-md-4.col-lg.mb-5.mb-lg-0(data-aos="fade-down-right")
-        .tarjeta-avatar
-          img(src='@/assets/curso/tema1/t1-22.svg' alt='AvatarTop')
-          .tarjeta.bgr_4
-            .p-4
-              h2.text-center.mb-5 Utilizar la tecnología a su favor
-              p.text-center.mb-0 En la actualidad, las empresas deben llamar la atención del cliente, ya no es el cliente el que debe llamar la atención de la empresa. Los clientes usan la tecnología a través de los diferentes dispositivos que existen para conocer los productos y servicios que ofrece el mercado.
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-lg-4.mb-5.mb-lg-0(data-aos="fade-left")
+          img(src='@/assets/curso/images/tema1/img_7.png')
+      .col-12.col-lg-7.mb-5.mb-lg-0(data-aos="fade-right")
+        .bloque-texto-c.color-custom-5.p-4.mx-4
+          i.fas.fa-quote-right
+          h2.mb-2 Lastimosamente muchas empresas le dan poca importancia a la gestión de quejas y reclamos, donde organizaciones y vendedores tienen la incapacidad de verlas como oportunidades para mejorar la imagen de la empresa y del mismo vendedor.
+          span - The graphic designer
+        
+    p.mb-5 Se invita a ver el siguiente video para conocer algunas recomendaciones para la retención de clientes:
 
 
+    .row.justify-content-center.align-items-center.my-3
+      .col-lg-10(data-aos="zoom-in-down")
+        .tarjeta.color-acento-contenido.p-4.mb-5
+          .row.justify-content-center.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/curso/images/tema1/ico_2.svg",  alt='', style="width:60px; display:block; margin:auto 0 ;")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.mb-1 Enlace web. Fidelización de clientes
+                  p.text-small https://youtu.be/64IsYDBncao
+                .col-md-auto
+                  a.boton.color-acento-contenido.texto-blanco(href="https://youtu.be/64IsYDBncao" target="_blank")
+                    span Ver
+                    .row
+                      .col-auto
+                        img.mx-4(src="@/assets/curso/images/tema1/Ico-video.svg",  alt='', style="width:20px; display:block; margin:auto 0 ;")
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 </template>
 
 <script>

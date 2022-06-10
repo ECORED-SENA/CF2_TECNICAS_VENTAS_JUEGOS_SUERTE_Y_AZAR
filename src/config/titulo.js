@@ -1,1 +1,2 @@
-module.exports = 'Protocolos de servicio al cliente'
+module.exports =
+  'Componente Formativo con un nombre extremadamente largo y extenso'

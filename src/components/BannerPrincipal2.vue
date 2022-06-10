@@ -4,7 +4,7 @@
     :style="{'background-image': globalData.fondoBannerPrincipal ? `url(${globalData.fondoBannerPrincipal})` : 'none'}"
   )
     .row.banner-principal__row.position-relative.justify-content-center.align-items-center
-      .col-lg-7.col-xxl-6.py-4.py-sm-5.banner-principal__info.ps-lg-5
+      .col-lg-7.col-xxl-6.py-4.py-sm-5.banner-principal__info.ps-5
         .banner-principal__componente
           h1.mb-0(v-html="globalData.componenteFormativo")
         .col-lg-12
@@ -12,20 +12,17 @@
             p.mb-0(v-html="globalData.descripcionCurso")
         .banner-principal__accion
           router-link.boton(:to="{name: iniciarLnk.nombreRuta }")
-            span.me-1 Iniciar
+            span.me-1 Ver más
             i.fas.fa-angle-right
-
-      .col-lg-5.d-none.d-lg-block.px-0.position-relative.img-p
-        img(:src="globalData.imagenBannerPrincipal")
-    .imagen_flotante_1: img(src="@/assets/curso/portada/flot1.svg").d-none.d-lg-block
-    .imagen_flotante_2: img(src="@/assets/curso/portada/flot2.svg").d-none.d-lg-block
-    .imagen_flotante_3: img(src="@/assets/curso/portada/flot3.svg").d-none.d-lg-block
-    .imagen_flotante_4: img(src="@/assets/curso/portada/flot4.svg").d-none.d-lg-block
-    //-.imagen_flotante_5: img(src="@/assets/curso/portada/cara5.svg").d-none.d-lg-block
-    //-.imagen_flotante_6.banner-principal__img: img(src="@/assets/curso/portada/estre5.svg").d-none.d-lg-block
-    
-  
-
+     
+      .d-none.d-lg-block.col-lg-5.px-0.banner-principal__img
+         img(:src="globalData.imagenBannerPrincipal" style="width: 481px")
+    .imagen_flotante_1: img(src="@/assets/curso/images/header/moneda_1.png")
+    .imagen_flotante_2: img(src="@/assets/curso/images/header/moneda_1.png")
+    .imagen_flotante_3.d-none.d-xl-block: img(src="@/assets/curso/images/header/moneda_2.png")
+    .imagen_flotante_4: img(src="@/assets/curso/images/header/moneda_2.png")
+    .imagen_flotante_5: img(src="@/assets/curso/images/header/moneda_3.png")
+ 
 </template>
 
 <script>
@@ -42,9 +39,6 @@ export default {
 </script>
 
 <style lang="sass">
-.img-p
-  top: 3%
-  right: -3%
 .fondo-contenido
   position: absolute
   padding: 0px
@@ -54,18 +48,17 @@ export default {
 .banner-principal__info
   padding-left: 80px  !important
   z-index: 3
-  @media (max-width: 420px)
-    padding: 30px !important
-
+  @media (max-width: 992px)
+    padding-left: 30px  !important
 
 .banner-principal
   p, h1, h2, h3, h4, h5, h6
     color: $color-banner-text
 
   .tarjeta
-    background-color: #FFC664
+    background-color: $color-banner-fondo
     background-size: cover
-    //background-position: center
+    background-position: center
 
   &__info
     display: flex
@@ -99,7 +92,7 @@ export default {
         .banner-principal__img
           padding-right: 3rem!important
 
-  //&__img
+  &__img
     animation: scale 5s ease-in-out infinite alternate
     @if $banner-principal-img-y == 'arriba'
       align-self: flex-start
@@ -119,45 +112,53 @@ export default {
         padding-top: 3rem!important
         padding-bottom: 3rem!important
 
+
 .imagen_flotante
   &_1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float1 8s ease-in-out infinite alternate
     position: absolute
-    width: 104px
-    top: 65%
-    right: 29%
+    z-index: 1
+    width: 478,81px
+    height: 324,26px
+    bottom: 330px
+    left: 90%
   &_2
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float1 10s ease-in-out infinite alternate
     position: absolute
-    width: 201px
-    top: 18%
-    right: 24%
+    width: 478,81px
+    height: 324,26px
+    bottom: 10px
+    left: 42%
   &_3
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float1 10s ease-in-out infinite alternate
     position: absolute
-    width: 82px
-    bottom: 55%
-    right: 8%
+    width: 33,44px
+    top: 85px
+    left: 1%
   &_4
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float1 4s ease-in-out infinite alternate
     position: absolute
-    width: 140px
-    bottom: 14%
-    left: 85%
+    width: 478,81px
+    height: 324,26px
+    bottom: -1%
+    left: 50%
+    z-index: 0
   &_5
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float1 10s ease-in-out infinite alternate
     position: absolute
-    width: 92px
-    top: 44%
-    left: 59%
-    z-index: 99
+    width: 478,81px
+    height: 324,26px
+    height: 324,26px
+    top: 5%
+    left: 95%
+    z-index: 0
   &_6
-    //animation: float1 3.5s ease-in-out infinite alternate
+    animation: float1 2.7s ease-in-out infinite alternate
     position: absolute
-    width: 239px
-    top: 55%
-    right: 2%
-    z-index: 99
+    width: 50px
+    top: 5%
+    right: 5%
+    z-index: 1
   &_7
     animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
@@ -166,31 +167,21 @@ export default {
     right: 3%
     z-index: 99
   &_8
-    filter: blur(1px)
-
     animation: float1 3s ease-in-out infinite alternate
     position: absolute
-    width: 50px
-    bottom: 20%
-    right: 8%
+    width: 100px
+    bottom: 85%
+    right: 90%
     z-index: 99
 
 @keyframes float1
-  0%
-    transform: translateY(20px)
 
-  100%
-    transform: translateY(0px)
-@keyframes float2
   0%
-    transform: translatex(20px)
-
-  100%
-    transform: translatex(0px)
+    transform: rotateZ(360deg)
 
 @keyframes scale
   0%
-    transform: scale(1.1)
+    transform: scale(1)
 
   100%
     transform: scale(1)
