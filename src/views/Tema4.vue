@@ -98,7 +98,7 @@
             h3 Venta cruzada
             p.mb-3 Es importante ser convincente en el ofrecimiento de productos cruzados y los beneficios.
             p.mb-3 Si no se explica de la manera correcta, el cliente pedirá, por ejemplo, su vuelto en vez de un producto y ya será muy difícil que cambie de opinión.
-            p.mb-0 Es importante conocer la reglas y normas que tenga su red para este tipo de cruces. 
+            p.mb-0 Es importante conocer las reglas y normas que tenga su red para este tipo de cruces. 
 
           .col-lg-7
             img.mt-3(src="@/assets/curso/images/tema4/img_7.png").mb-3

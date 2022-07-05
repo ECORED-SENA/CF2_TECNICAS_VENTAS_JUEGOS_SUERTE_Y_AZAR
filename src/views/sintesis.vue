@@ -3,7 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-
+    p.mb-5 A través del siguiente mapa podrá ver la conceptualización abordada en este componente formativo, la cual resume de manera puntual lo visto en este:
     .row.justify-content-center
       .col-lg-10.mb-5
         figure

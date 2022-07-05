@@ -28,8 +28,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.mb-1 Enlace web.  Proceso de venta
-                  p.text-small https://www.youtube.com/watch?v=wdFK6E_D2Ro
+                  h3.mb-1  Proceso de venta
                 .col-md-auto
                   a.boton.color-acento-contenido.texto-blanco(href="https://www.youtube.com/watch?v=wdFK6E_D2Ro" target="_blank")
                     span Ver
@@ -188,8 +187,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.mb-1 Enlace web. Fidelización de clientes
-                  p.text-small https://youtu.be/64IsYDBncao
+                  h3.mb-1 Fidelización de clientes
                 .col-md-auto
                   a.boton.color-acento-contenido.texto-blanco(href="https://youtu.be/64IsYDBncao" target="_blank")
                     span Ver

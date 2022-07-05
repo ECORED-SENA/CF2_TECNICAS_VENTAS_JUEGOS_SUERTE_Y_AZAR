@@ -56,8 +56,6 @@
 
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5  
 
-    p.mb-4 Animación digital que crea la ilusión de movimiento mediante imágenes, fotografías, títulos, colores y diseños.
-
     .row.justify-content-center.align-items-center.fondo-4.mb-5.p-4
       LineaTiempoB.color-secundario.mb-5(:datos="datosLineaTiempoB")
 
@@ -101,12 +99,12 @@
                 h4 Posicionamiento del negocio
                 p.mb-3 Aprovechar el posicionamiento de la comercializadora a la que está vinculado. Este reconocimiento le genera al vendedor una excelente reputación y respaldo a la hora de vender. De igual manera, el vendedor debe ejecutar acciones que le permitan mantener un buen  prestigio con ética y profesionalismo, logrando  crecer en su rol y hacer crecer la organización a la que pertenece. 
          
-          .tarjeta.back-tab.px-5.py-4(titulo="Creación del perfil del cliente ideal")
+          .tarjeta.back-tab.px-5.py-4(titulo="Identificar los perfiles de los clientes")
             .row.px-5.py-3.justify-content-center.align-items-center
               .col-lg-4.mb-3
                 img.mx-3(src="@/assets/curso/images/tema2/ico_7.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;")
               .col-lg-8
-                h4 Creación del perfil del cliente ideal 
+                h4 Identificar los perfiles de los clientes 
                 p.mb-3 Lograr como vendedor el análisis e identificación de los diferentes tipos de clientes le permitirá actuar con estrategias acordes a cada perfil. 
                 p.mb-0 Por ello, entre más conozca su punto de venta, los hábitos de consumo de los clientes, quiénes compran más de un producto y en qué periodicidad, los comportamientos de compra según temporadas del mes (quincenas), del año (navidad, feriados) entre otras situaciones, permitirá abordar con mejores estrategias a cada cliente.
 

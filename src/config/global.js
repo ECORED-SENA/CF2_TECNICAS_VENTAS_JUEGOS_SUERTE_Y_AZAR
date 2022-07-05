@@ -66,7 +66,7 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Ventas online (en línea)',
+        titulo: 'Ventas <i>online</i> (en línea)',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -179,7 +179,7 @@ export default {
     },
     {
       referencia:
-        'Kirberg, A. (2017). Marketing de fidelización. Ecoe Ediciones.',
+        'Kirberg, A. (2017). <i>Marketing</i> de fidelización. Ecoe Ediciones.',
     },
     {
       referencia:
@@ -216,7 +216,7 @@ export default {
         'Se refiere al equipo de personas responsables de generar una efectiva producción a través de la oferta y venta de servicios y productos.',
     },
     {
-      termino: 'Merchandising',
+      termino: '<i>Merchandising</i>',
       significado:
         'Conjunto de productos publicitarios para promocionar un producto, promociones, una marca, etc.',
     },
@@ -228,10 +228,10 @@ export default {
     {
       termino: 'Segmentos de mercado',
       significado:
-        'Dividir los compradores en segmentos más pequeños, estas divisiones cumplen con criterios en común para tener claridad hacia qué “target” orientar las ventas.',
+        'Dividir los compradores en segmentos más pequeños, estas divisiones cumplen con criterios en común para tener claridad hacia qué “<i>target</i>” orientar las ventas.',
     },
     {
-      termino: 'Target',
+      termino: '<i>Target</i>',
       significado:
         'Término usado para definir el segmento de mercado objetivo, es decir, a qué tipo de público o qué características en común tienen para orientar las ventas hacia ese segmento.',
     },
@@ -314,13 +314,24 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Yuli Marcela Gómez Tarazona',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

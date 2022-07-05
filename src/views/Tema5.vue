@@ -158,8 +158,7 @@
             .col-lg-7
               p.mb-3 Cuando hay rebajas o premios especiales, así como obsequios, se le debe motivar al cliente haciéndole saber que las ofertas son limitadas y que es una oportunidad que no debería dejar pasar.
 
-     
-
+    
 
 
 
@@ -191,5 +190,24 @@ export default {
   },
 }
 </script>
-
-<style lang="sass"></style>
+<style lang="sass">
+.tarjeta-up
+  overflow: hidden
+  position: relative
+  .tarjeta-up__content
+    position: absolute
+    bottom: -200%
+    width: 100%
+    height: 83%
+    padding: 2rem
+    transition: bottom 0.7s ease-in-out
+    @media (max-width: 992px)
+      height: 85%
+    &.bg-1
+        background-color: rgba(255, 255, 255, 0.9 )
+        h1, h2, h3, h4, h5, p
+          color: $black
+  &:hover
+    .tarjeta-up__content
+      bottom: 0%
+</style>

@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="zoom-in-left")
       .titulo-principal__numero
         span 3
-      h1 Ventas online (en línea)
+      h1 Ventas <i>online</i> (en línea)
 
     p.mb-3 Bajo el contexto de la cuarta revolución industrial el uso de Internet para comprar en línea toma más fuerza cada día, en el siguiente video se expone la importancia de esta metodología:
 
@@ -26,12 +26,14 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade")
         figure
-          img(src='@/assets/curso/images/tema3/img_1.svg')
+          img(src='@/assets/curso/images/tema3/img_1_1.svg')
 
     Separador
 
     #t_3_1.titulo-segundo
       .h4 3.1.	Aplicabilidad en el campo
+    
+    p.mb-5 El enfoque que se debe dar en las ventas online es la difusión del uso de las plataformas digitales que la red de apuestas y juegos de azar vaya lanzando. Desde la visión del vendedor se suele reaccionar en contra de estas tecnologías, pues se tiene la idea de que al emplearse cada vez más estas herramientas, menos usarán los puntos de venta físicos, surgiendo una competencia interna entre los puntos de venta y las herramientas tecnológicas.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10(data-aos="fade")
@@ -68,7 +70,7 @@
         SlyderA
           .row.justify-content-center.align-items-center.p-5
             .col-lg-5
-              h3 Vigilancia tecnológica:
+              h3 Vigilancia tecnológica
               p.mb-3 Lo primero que se debe hacer como vendedor es estar atento a  las tecnologías y las nuevas preferencias de compras que la población está empleando. De esta manera podrá innovar adaptando su servicio, sus clientes y conocimiento a ser parte de esas tendencias de consumo.
               
             .col-lg-7
@@ -87,7 +89,7 @@
           .row.justify-content-center.align-items-center.p-5
             .col-lg-5
               h3 Conocimiento:
-              p.mb-3 Quizás, es lo que más dificultad resulte para algunos vendedores, pues ocasionalmente desean estar en zonas de confort; sin embargo, esto podría ser peligroso para su futuro laboral e ingresos. Estar consultando, investigando y en formaciones de manera permanente ayuda a tener mejores habilidades y perspectivas más amplias, en especial si la formación a la que se enfoca tiene que ver con tecnología y ventas. El SENA tiene una gran oferta de formaciones complementarias y tituladas, que son pertinentes y actualizadas, de esa manera el vendedor puede ir adaptándose al mercado y asegurar su futuro laboral.
+              p.mb-3 Quizás, es lo que más dificultad resulte para algunos vendedores, pues ocasionalmente desean estar en zonas de <i>confort</i>; sin embargo, esto podría ser peligroso para su futuro laboral e ingresos. Estar consultando, investigando y en formaciones de manera permanente ayuda a tener mejores habilidades y perspectivas más amplias, en especial si la formación a la que se enfoca tiene que ver con tecnología y ventas. El SENA tiene una gran oferta de formaciones complementarias y tituladas, que son pertinentes y actualizadas, de esa manera el vendedor puede ir adaptándose al mercado y asegurar su futuro laboral.
 
             .col-lg-7
               img.mt-3(src="@/assets/curso/images/tema3/img_6.png").mb-3
@@ -100,6 +102,14 @@
 
             .col-lg-7
               img.mt-3(src="@/assets/curso/images/tema3/img_7.png").mb-3
+          
+          .row.justify-content-center.align-items-center.p-5
+            .col-lg-5
+              h3 Más digital
+              p.mb-3 Usar las redes sociales solo para actividades personales y consumo, quizá es desaprovechar tiempo y posibilidades, la sugerencia es aprovechar la red social física o real que se teje en el puesto de trabajo (vecinos, clientes, conocidos, visitantes) y poco a poco pasarla a las redes sociales digitales. Como vendedor siempre será interesante para incrementar sus ventas, fortalecer sus contactos en redes sociales, ya que esto implica menos costos en llamadas y desplazamientos y facilita la difusión de sus productos. 
+
+            .col-lg-7
+              img.mt-3(src="@/assets/curso/images/tema3/img_8.png").mb-3
 
       p.mb-3 A modo de conclusión es importante tener presente que no existe una fórmula establecida para desarrollar factores de innovación, si bien existen algunas metodologías y consejos, el primer insumo de la transformación y cambios es la creatividad y el conocimiento. Por esto se debe estar muy informado y a partir de las necesidades, la creatividad y las ideas que surgen, la invitación es a que se dé rienda suelta a las ideas y, estar con el pensamiento constante de cómo mejorar las ventas de manera innovadora y con tecnología.
 
