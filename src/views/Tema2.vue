@@ -156,7 +156,7 @@ export default {
   data: () => ({
     datosLineaTiempoB: [
       {
-        titulo: '1. Atraer:',
+        titulo: '1. Atraer',
         texto:
           'Generar visitas al punto de venta, eso se puede lograr analizando lo que debe hacer para que el cliente preste atención al portafolio de ventas.',
         icono: require('@/assets/curso/images/tema2/ico_1.svg'),

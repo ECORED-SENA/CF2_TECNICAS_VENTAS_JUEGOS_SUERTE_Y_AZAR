@@ -88,7 +88,7 @@
 
           .row.justify-content-center.align-items-center.p-5
             .col-lg-5
-              h3 Conocimiento:
+              h3 Conocimiento
               p.mb-3 Quizás, es lo que más dificultad resulte para algunos vendedores, pues ocasionalmente desean estar en zonas de <i>confort</i>; sin embargo, esto podría ser peligroso para su futuro laboral e ingresos. Estar consultando, investigando y en formaciones de manera permanente ayuda a tener mejores habilidades y perspectivas más amplias, en especial si la formación a la que se enfoca tiene que ver con tecnología y ventas. El SENA tiene una gran oferta de formaciones complementarias y tituladas, que son pertinentes y actualizadas, de esa manera el vendedor puede ir adaptándose al mercado y asegurar su futuro laboral.
 
             .col-lg-7

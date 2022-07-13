@@ -275,7 +275,7 @@ export default {
       },
       {
         nombre: 'Claudia Milena Hernández Naranjo',
-        cargo: 'Diseñadora Instruccional',
+        cargo: 'Diseñadora instruccional',
         centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
       },
       {
