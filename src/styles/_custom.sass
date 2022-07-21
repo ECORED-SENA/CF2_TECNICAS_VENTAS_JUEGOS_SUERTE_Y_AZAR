@@ -50,7 +50,7 @@
 		background-color:#361D90
 
 .color-custom-3
-	background-color:#EAE7F5
+	background-color:#EBEBEB
 	&::before
 		background-color:#361D90
 
@@ -78,6 +78,10 @@
 .color-custom-9
   background-color:  #ECE4FE
 
+.color-custom-10
+	background-color:#9D39E3
+	&::before
+		background-color:#361D90
 
 .boton.color-acento-contenido, .color-acento-contenido.boton--sm, .color-acento-contenido.boton--sm 
   background-color: #F1CC4B
@@ -133,9 +137,26 @@
       top: -215px
       left: 0
       width: 100%
+      height: 235px
+      background-color: #FBE2FF
+      z-index: 0
+@media screen and ( max-width: 392px )
+  .custom_box_left
+    position: relative 
+    padding: 2.5rem 1.5rem 
+    background-color: #FBE2FF
+    p
+      position: relative 
+    &:before 
+      content: ""
+      position: absolute
+      top: -215px
+      left: 0
+      width: 100%
       height: 215px
       background-color: #FBE2FF
       z-index: 0
+
 
 .custom_box_left-2     
   position: relative 
@@ -143,6 +164,7 @@
   background-color: #FFD947
   margin-right: 70px
   margin-left: 50px
+  left: 100px
   p
     position: relative 
   &:before 
@@ -171,12 +193,110 @@
       height: 215px
       background-color: #FFD947
       z-index: 0
+@media screen and ( max-width: 397px )
+  .custom_box_left-2
+    position: relative 
+    padding: 2.5rem 1.5rem 
+    background-color: #FFD947
+    width: 100%
+    margin-left: -100px
+      position: relative 
+    &:before 
+      content: ""
+      position: absolute
+      top: -215px
+      left: 0
+      width: 100%
+      height: 235px
+      background-color: #FFD947
+      z-index: 0
+
+
+.custom_box_left-3
+  position: relative 
+  padding: 2.5rem 1.5rem 
+  background-color: #FBE2FF
+  margin-right: 70px
+  margin-left: -190px
+  left: 100px
+  width: 110%
+  border-bottom-right-radius: 30px
+  border-top-right-radius: 30px
+  p
+    position: relative 
+  &:before 
+    content: ""
+    position: absolute
+    top: 0
+    left: -65%
+    width: 65%
+    height: 100%
+    background-color: #FBE2FF
+    border-top-left-radius: 30px
+    border-bottom-left-radius: 30px
+    z-index: 0
+
+@media screen and ( max-width: 980px )
+  .custom_box_left-3
+    position: relative 
+    padding: 2.5rem 1.5rem 
+    background-color: #FBE2FF
+    width: 80%
+    border-bottom-left-radius: 30px
+    border-bottom-right-radius: 30px
+      position: relative 
+    &:before 
+      content: ""
+      position: absolute
+      top: -215px
+      left: 0
+      width: 100%
+      height: 215px
+      background-color: #FBE2FF
+      border-top-left-radius: 30px
+      border-top-right-radius: 30px
+      z-index: 0
+
+@media screen and ( max-width: 397px )
+  .custom_box_left-3
+    position: relative 
+    padding: 2.5rem 1.5rem 
+    background-color: #FBE2FF
+    width: 100%
+    margin-left: -100px
+      position: relative 
+    &:before 
+      content: ""
+      position: absolute
+      top: -215px
+      left: 0
+      width: 100%
+      height: 235px
+      background-color: #FBE2FF
+      z-index: 0
 
 .onTop
   position: relative
   z-index: 10
   margin-bottom: 60px
+  left: 10px
+  top: -30px
+  @media screen and ( max-width: 397px )
+    margin-left: 5px
+    top: 100px
 
+.onTop-1
+  position: relative
+  z-index: 10
+  margin-bottom: 60px
+  left: 110px
+  top: 2px
+  @media screen and ( max-width: 397px )
+    margin-left: -195px
+    top: 100px
+
+
+ 
 .col-md-auto 
   flex: 0 0 auto
   width: 155px
@@ -209,8 +329,21 @@
   background-repeat: no-repeat
   background-size: cover
   @media (max-width: 992px)
-    width: 390px
-    margin-left: -24px
+    width: 400px
+  @media (max-width: 397px)
+    margin-left: -30px
+
+.bg_grad-02-1
+  background-image: url('../assets/curso/images/tema1/back_slyder.svg')
+  background-repeat: no-repeat
+  background-size: cover
+  @media (max-width: 992px)
+    width: 400px
+  @media (max-width: 397px)
+    margin-top: -10px
+    background-repeat: no-repeat
+    background-size: cover
+    width: 400px
 
 .bg_grad-03
   position: relative
@@ -264,7 +397,7 @@
     content: ''
     position: absolute
     margin: 0
-    top: 0
+    top: 10px
     left: 0
     width: 120%
     height: 108.5%
@@ -277,6 +410,8 @@
       margin: 0 -23px
       width: calc(100% + 46px)
       top: 20px
+
+
 
 .bg_grad-06
   position: relative
@@ -299,6 +434,16 @@
       margin: 0 -23px
       width: calc(100% + 46px)
       top: 20px
+
+
+.bg_grad-07
+  background-color:#F1DCFF
+  background-repeat: no-repeat
+  background-size: cover
+  @media (max-width: 992px)
+    width: 390px
+    margin-left: -24px
+
 .slyder-a__bullets__item--active
   background-color: #E33FFD !important
 
@@ -346,6 +491,9 @@
 .m-right
   right: -40% !important
 
+.sombra
+  box-shadow: 6px 6px 12px 3px rgba(0, 0, 255, .1)
+
 .back-tab
   background-color: #F0E0F5
 
@@ -356,12 +504,41 @@
   background-color: #F1CC4B
   width: 121px
 
+.cajon
+  box-shadow: 5px 5px 2px 1px rgba(0, 0, 255, .1)
 
-.d-none.d-lg-block.col-lg-5.px-0.banner-principal__img
-  img
-    width: 450px!important
-    margin-bottom: -1px
-    margin-left: 155px
-    @media (max-width: 1024px)
-      margin-left: -1px
-      margin-top: 30px
+.linea-tiempo-b.color-secundario .linea-tiempo-b__icon 
+  background-color: #9D39E3
+
+.linea-tiempo-b__icon img 
+  position: absolute
+  width: 60%
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+
+.justify-center
+  display: flex
+  flex-wrap: wrap
+  align-items: normal
+  justify-content: center
+  flex-direction: row
+
+.slyder-a__tipo-a .slyder-a__btn--atrs 
+  @media screen and (max-width: $bp-max-xs)
+    left: 2px
+    margin-top: 175px
+.slyder-a__tipo-a .slyder-a__btn--sigt 
+  @media screen and (max-width: $bp-max-xs)
+    right: 2px
+    margin-top: 175px
+
+.slyder-a.tema1
+  @media screen and (max-width: $bp-max-xs)
+    right: 0px
+    margin-top: 15px
+    margin-left: 20px
+
+
+
+

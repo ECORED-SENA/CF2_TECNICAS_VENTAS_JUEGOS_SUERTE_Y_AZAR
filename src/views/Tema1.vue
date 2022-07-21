@@ -10,9 +10,9 @@
   .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-1.mb-0.mg-top-1.cs
 
     .row.justify-content-star.my-5
-      .col-lg-5(data-aos="fade-right")
-        img(src='@/assets/curso/images/tema1/img_1.svg'  alt='', style="width:440px; display:block; margin:auto 0 ;").mb-3
-      .col-lg-7(data-aos="fade-left") 
+      .col-lg-4(data-aos="fade-right")
+        img(src='@/assets/curso/images/tema1/img_1.svg').mb-3
+      .col-lg-8(data-aos="fade-left") 
         .cajon.color-custom-2.p-5.mb-5
           p.mb-3 “La práctica hace al maestro”, una de las frases más comunes siendo también aplicada a todos los oficios sin ser una excepción a las ventas y es que para muchos, vender es una tarea muy difícil; claro, quizás nunca lo han hecho o cuando lo intentaron no tenían la preparación para hacerlo y quedan con este prejuicio. A medida que un vendedor gana experiencia y conocimiento la acción de tratar al cliente y cerrar las ventas se va haciendo tan natural, que al cabo de un tiempo no debería significar una labor de alta complejidad. Es por eso que para muchos la habilidad de las ventas es más exitosa que para otras personas, debido a que el proceso debe ser integrado a estrategias innatas como a estrategias determinadas por la organización, para finalmente facilitar el cumplimiento de las ventas comerciales. 
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5 
@@ -47,15 +47,18 @@
       .col-12.col-md-6.col-lg-8.col-xl-8(data-aos="fade-right")
          img(src='@/assets/curso/images/tema1/img_2.svg')
 
+    .row.justify-content-center.align-items-center
+        .col-lg-12
+          .row.justify-content-center.align-items-center
+            .col-auto.onTop.p-3(data-aos="zoom-in-down")
+              img(src="@/assets/curso/images/tema1/img_3.png" alt='AvatarTop')
+            .col-lg(data-aos="zoom-in-down")
+              .custom_box_left-3
+                p En este caso, según el target enmarcado en este componente formativo, los vendedores de juegos de suerte y azar deben ejecutar de manera disciplinada los pasos que se muestran en el siguiente mapa conceptual, en el cual se definen nueve pasos para la venta efectiva, aplicada a la oferta de productos y servicios de juegos de suerte y azar. Si bien no es un estándar técnico que los vendedores están obligados a seguir, son recomendaciones importantes para alcanzar el éxito de manera más efectiva. 
 
-    .row.justify-content-center.align-items-center.mb-3      
-      .col-auto.onTop.p-3(data-aos="zoom-in-down")
-       img(src="@/assets/curso/images/tema1/img_3.png" alt='AvatarTop', style="width:450px;").m-auto    
-      .col-lg(data-aos="zoom-in-down")
-        .custom_box_left
-          p En este caso, según el target enmarcado en este componente formativo, los vendedores de juegos de suerte y azar deben ejecutar de manera disciplinada los pasos que se muestran en el siguiente mapa conceptual, en el cual se definen nueve pasos para la venta efectiva, aplicada a la oferta de productos y servicios de juegos de suerte y azar. Si bien no es un estándar técnico que los vendedores están obligados a seguir, son recomendaciones importantes para alcanzar el éxito de manera más efectiva. 
+  
 
-    p.mb-3 Para cualquier protocolo juega un papel fundamental la disciplina, este elemento permite seguir una secuencia de cada fase teniendo claridad de los propósitos de cada una, ver figura.
+    p.my-3 Para cualquier protocolo juega un papel fundamental la disciplina, este elemento permite seguir una secuencia de cada fase teniendo claridad de los propósitos de cada una, ver figura.
 
 
     .row.justify-content-center.align-items-center.my-3
@@ -86,25 +89,25 @@
 
 
     .row.justify-content-center.align-items-center.mb-3
-      .col-lg-10(data-aos="fade")
+      .col-lg-10(data-aos="zoom-in-down")
         .cajon.color-custom-3.p-4.mb-3
           p.mb-3 Es importante recordar que la venta no es la terminación de las cosas como se cree normalmente. Para el comprador se trata del inicio de una relación, lo que para algunos vendedores es el final del proceso, para el comprador podría tratarse del inicio de un acto habitual que se debe cuidar y prestar mucha atención.
 
 
         .row.align-items-center.justify-content-center.mb-5  
-          .col-lg-7(data-aos="fade-left") 
+          .col-lg-7(data-aos="fade-right") 
             .cajon.color-custom-4.p-4.mb-3
               p.mb-3 Se está en un periodo en el que el enfoque estratégico para el éxito no son las ventas propiamente, hay otros enfoques que toman mucha importancia como el enfoque al cliente basado en el marketing, se podría resumir en la frase “hacer que le compren”, es una pequeña expresión que podría marcar la diferencia, es decir, el mayor éxito son aquellas empresas que logran a través del servicio al cliente, publicidad, principios éticos, etc., vender sin ofrecer o vender sin rogar. Es importante la ventaja que tienen los vendedores de juegos de suerte y azar, pues los clientes no compran un billete de lotería, ellos realmente compran una esperanza o una ilusión de ganar, es allí donde el servicio personalizado toma un papel primordial. 
-          .col-lg-5.mb-3(data-aos="fade-right") 
+          .col-lg-5.mb-3(data-aos="fade-left")
             img(src='@/assets/curso/images/tema1/img_5.png'  alt='')
 
     p.mb-5 Como ya se ha mencionado sobre la importancia de la atención al cliente, en este componente se hace notar, además, las siguientes variables:
 
     .tarjeta.bg_grad-02.p-4.mb-5(data-aos="zoom-in-up")
-      SlyderA
-        .row.justify-content-center.align-items-center.p-5
-          .col-lg-5
-            h3 Gestión de quejas y reclamos
+      SlyderA.slyder-a.tema1
+        .row.align-items-center.p-4
+          .col-lg-4
+            h4 Gestión de quejas y reclamos
             p.mb-3 La gestión de quejas y reclamos está definida por el protocolo de cada organización, por ello, debe como vendedor estar al tanto de este tipo de procedimientos para no cometer errores al dar información errada a un cliente. 
 
             p.mb-3 Es importante conocer aspectos como:
@@ -120,13 +123,13 @@
                 i.fas.fa-check.c-check
                 | Si hay un funcionario, área o departamento en la organización de apoyo para esta gestión.
              
-          .col-lg-7
+          .col-lg-8
             img.mt-3(src="@/assets/curso/images/tema1/img_6.png").mb-3
           
 
-        .row.justify-content-center.align-items-center.p-5
-          .col-lg-5
-            h3 Recepción de la queja
+        .row.align-items-center.p-4
+          .col-lg-4
+            h4 Recepción de la queja
             p.mb-3 Es vital para un vendedor saber actuar frente a una situación de queja o reclamo del cliente,  no solo depende de:
 
             ul.lista-ul
@@ -142,37 +145,37 @@
 
             p.mb-3 También es importante conocer el protocolo de la organización, para saber informar al cliente cuál es el procedimiento a seguir frente a esta situación. Pero una recomendación general es nunca decir “eso no es conmigo”. 
             p.mb-0 Se debe tratar de mantener la buena relación cliente-vendedor, ante cualquier situación de inconformidad y es un derecho del cliente que su queja sea recibida, radicada o recepcionada.
-          .col-lg-7
+          .col-lg-8
             img.mt-3(src="@/assets/curso/images/tema1/img_8.png").mb-3
 
-        .row.justify-content-center.align-items-center.p-5
-          .col-lg-5
-            h3 Informar al cliente sobre las acciones sobre la queja
+        .row.align-items-center.p-4
+          .col-lg-4
+            h4 Informar al cliente sobre las acciones sobre la queja
             p.mb-3 Sea cual sea el proceso a seguir en la empresa, si el cliente pregunta por el estado de la queja es su deber hacerle las cosas fáciles para no aumentar su frustración. Si la solución no está en manos del vendedor se deben dar todas las indicaciones que sean necesarias para informar sobre el estado de la queja y demostrar siempre su acompañamiento en el proceso.
 
             p.mb-0 En caso de que entre a algún proceso que demore días es importante informarle que existen tiempos de espera; pero que estará atento a brindar apoyo en todo lo que necesite. 
 
-          .col-lg-7
+          .col-lg-8
             img.mt-3(src="@/assets/curso/images/tema1/img_9.png").mb-3
 
 
-        .row.justify-content-center.align-items-center.p-5
-          .col-lg-5
-            h3 Analice las oportunidades de los reclamos
+        .row.align-items-center.p-4
+          .col-lg-4
+            h4 Analice las oportunidades de los reclamos
             p.mb-3 Esta situación de inconformidad de los clientes permiten el análisis para procurar convertir amenazas en oportunidades y debilidades en fortalezas, de este modo, los reclamos y las quejas se vuelven insumos para mejorar el negocio y tomar medidas correctivas que faciliten las oportunidades de venta y el servicio al cliente. 
 
             p.mb-3 Los vendedores que mejor resuelven quejas y reclamos son aquellos que han tenido clientes, que después de una situación de inconformidad, vieron la oportunidad de atenderlos mejor, con este tipo de retroalimentación y mejora se logra conocer las claves para la “fidelización de los clientes”.
 
-          .col-lg-7
+          .col-lg-8
             img.mt-3(src="@/assets/curso/images/tema1/img_10.png").mb-3
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-lg-4.mb-5.mb-lg-0(data-aos="fade-left")
+      .col-12.col-lg-4.mb-5.mb-lg-0(data-aos="fade-right")
           img(src='@/assets/curso/images/tema1/img_7.png')
-      .col-12.col-lg-7.mb-5.mb-lg-0(data-aos="fade-right")
+      .col-12.col-lg-7.mb-5.mb-lg-0(data-aos="fade-left")
         .bloque-texto-c.color-custom-5.p-4.mx-4
           i.fas.fa-quote-right
-          h2.mb-2 Lastimosamente muchas empresas le dan poca importancia a la gestión de quejas y reclamos, donde organizaciones y vendedores tienen la incapacidad de verlas como oportunidades para mejorar la imagen de la empresa y del mismo vendedor.
+          h4.mb-2 Lastimosamente muchas empresas le dan poca importancia a la gestión de quejas y reclamos, donde organizaciones y vendedores tienen la incapacidad de verlas como oportunidades para mejorar la imagen de la empresa y del mismo vendedor.
           span - The graphic designer
         
     p.mb-5 Se invita a ver el siguiente video para conocer algunas recomendaciones para la retención de clientes:

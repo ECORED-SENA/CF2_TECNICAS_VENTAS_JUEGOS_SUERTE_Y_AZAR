@@ -15,8 +15,8 @@
             span.me-1 Ver más
             i.fas.fa-angle-right
      
-      .d-none.d-lg-block.col-lg-5.px-0.banner-principal__img
-         img(:src="globalData.imagenBannerPrincipal" style="width: 481px")
+      .col-lg-5.d-none.d-lg-block.px-0.position-relative.img-p
+         img(:src="globalData.imagenBannerPrincipal" style="width: 575px")
     .imagen_flotante_1: img(src="@/assets/curso/images/header/moneda_1.png")
     .imagen_flotante_2: img(src="@/assets/curso/images/header/moneda_1.png")
     .imagen_flotante_3.d-none.d-xl-block: img(src="@/assets/curso/images/header/moneda_2.png")
@@ -39,6 +39,16 @@ export default {
 </script>
 
 <style lang="sass">
+.img-p
+  top: 10%
+  right: -55px
+  @media (max-width: 1500px)
+    top: 0px
+    right: 0px
+  @media (max-width: 1100px)
+    top: 32px
+    right: 0px
+
 .fondo-contenido
   position: absolute
   padding: 0px
@@ -51,6 +61,7 @@ export default {
   @media (max-width: 992px)
     padding-left: 30px  !important
 
+
 .banner-principal
   p, h1, h2, h3, h4, h5, h6
     color: $color-banner-text
@@ -59,6 +70,7 @@ export default {
     background-color: $color-banner-fondo
     background-size: cover
     background-position: center
+
 
   &__info
     display: flex
@@ -92,6 +104,7 @@ export default {
         .banner-principal__img
           padding-right: 3rem!important
 
+
   &__img
     animation: scale 5s ease-in-out infinite alternate
     @if $banner-principal-img-y == 'arriba'
@@ -111,7 +124,6 @@ export default {
       @media (min-width: $bp-min-sm)
         padding-top: 3rem!important
         padding-bottom: 3rem!important
-
 
 .imagen_flotante
   &_1

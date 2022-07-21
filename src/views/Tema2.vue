@@ -22,9 +22,9 @@
 
   .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-2.mb-0.cs
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10(data-aos="fade")
+      .col-lg-10(data-aos="zoom-in-down")
         figure
-          img.m-3(src='@/assets/curso/images/tema2/img_3.svg')
+          img(src='@/assets/curso/images/tema2/img_3.svg')
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5  
 
     p.mb-5 Posterior a conocer las variables es importante resolver los interrogantes, teniendo en cuenta el área de afluencia, la situación económica del entorno y las costumbres de la zona geográfica. 
@@ -34,20 +34,20 @@
     .row.justify-content-center.align-items-center
       .col-lg-10
         .row.align-items-star.justify-content-center.mb-5  
-          .col-lg-7(data-aos="fade-left") 
+          .col-lg-7(data-aos="fade-right") 
               p.mb-3 Por lo general, la estrategia es construida desde los equipos estratégicos comerciales de cada organización mediante investigaciones de mercado, donde el insumo principal es conocer el perfil del cliente, su comportamiento, preferencias y costumbres del entorno. La gran mayoría de esta información es suministrada por los vendedores, porque son ellos los que tienen el contacto directo con el cliente.
 
               p.mb-3 Por lo anterior, las estrategias de ventas son flexibles a varios factores, es más, hay vendedores que gracias a su experiencia y talento, van adaptando la estrategia comercial de la empresa, más valores agregados que el mismo vendedor suma al proceso de venta, generando un factor diferencial a favor de sus metas comerciales.
 
               p.mb-5 Vender con estrategia de venta permite evitar la improvisación y garantiza acertar con productos que satisfagan a los clientes. 
 
-          .col-lg-5(data-aos="fade-right") 
+          .col-lg-5(data-aos="fade-left") 
             img(src='@/assets/curso/images/tema2/img_4.png'  alt='')
             
     Separador
     
     #t_2_1.titulo-segundo
-      .h4 2.1. Estructura
+      .h2 2.1. Estructura
 
     p.mb-3 Es una estrategia de ventas que permitirá plasmar la información para poder concretar un plan a seguir. Las estrategias de ventas deberían establecer prioridades claras que todos entiendan, aportar directrices qué seguir y marcar unos objetivos para avanzar (Pérez, 2018).
 
@@ -57,20 +57,20 @@
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5  
 
     .row.justify-content-center.align-items-center.fondo-4.mb-5.p-4
-      LineaTiempoB.color-secundario.mb-5(:datos="datosLineaTiempoB")
+      LineaTiempoB.color-secundario.mb-5(:datos="datosLineaTiempoB")(data-aos="zoom-in-down")
 
-      p.mb-3 Lo anterior recalca que es el vendedor la persona más importante para la organización dentro del proceso de ventas. Es por ello que una vez tomada la decisión de ser vendedor de juegos de suerte y azar inicia un proceso de mejoramiento continuo y de aprendizaje permanente, porque cada experiencia, cada venta, permitirá perfeccionar la próxima oportunidad con el cliente. En ese sentido es importante trabajar con una estrategia de venta, para reducir la incertidumbre y aumentar la posibilidad de éxito. 
+    p.mb-3 Lo anterior recalca que es el vendedor la persona más importante para la organización dentro del proceso de ventas. Es por ello que una vez tomada la decisión de ser vendedor de juegos de suerte y azar inicia un proceso de mejoramiento continuo y de aprendizaje permanente, porque cada experiencia, cada venta, permitirá perfeccionar la próxima oportunidad con el cliente. En ese sentido es importante trabajar con una estrategia de venta, para reducir la incertidumbre y aumentar la posibilidad de éxito. 
 
     Separador
 
     #t_2_2.titulo-segundo
-      .h4 2.2.	Claves para definir la estrategia
+      .h2 2.2.	Claves para definir la estrategia
 
     p.mb-5 Una vez el vendedor esté vinculado con una empresa comercializadora de juegos de suerte y azar se requiere estar atento a las recomendaciones y estrategias sugeridas por la red de apuestas; no obstante, el vendedor como individuo debe convertirse en un emprendedor de su punto de venta y para concretar su estrategia se recomienda tener elementos clave definidos más adelante.
 
     .row.justify-content-center.align-items-center
       .col-lg-10
-        .bloque-texto-g.color-custom-3.p-3.p-sm-4.p-md-5.mb-5.d-none.d-lg-block
+        .bloque-texto-g.color-custom-10.p-3.p-sm-4.p-md-5.mb-5.d-none.d-lg-block
           .bloque-texto-g__img(data-aos="fade-right")(
             :style="{'background-image': `url(${require('@/assets/curso/images/tema2/img_5.png')})`}"
           )
@@ -92,26 +92,26 @@
       .col-lg-12
         TabsA.color-acento-contenido(data-aos="fade")
           .tarjeta.back-tab.px-5.py-4(titulo="Posicionamiento del negocio")
-            .row.px-5.py-3.justify-content-center.align-items-center
+            .row.px-2.py-3.align-items-center
               .col-lg-4.mb-3
-                img.mx-3(src="@/assets/curso/images/tema2/ico_6.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;")
+                img.mx-5(src="@/assets/curso/images/tema2/ico_6.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;")
               .col-lg-8
                 h4 Posicionamiento del negocio
                 p.mb-3 Aprovechar el posicionamiento de la comercializadora a la que está vinculado. Este reconocimiento le genera al vendedor una excelente reputación y respaldo a la hora de vender. De igual manera, el vendedor debe ejecutar acciones que le permitan mantener un buen  prestigio con ética y profesionalismo, logrando  crecer en su rol y hacer crecer la organización a la que pertenece. 
          
           .tarjeta.back-tab.px-5.py-4(titulo="Identificar los perfiles de los clientes")
-            .row.px-5.py-3.justify-content-center.align-items-center
+            .row.px-2.py-3.justify-content-center.align-items-center
               .col-lg-4.mb-3
-                img.mx-3(src="@/assets/curso/images/tema2/ico_7.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;")
+                img.mx-5(src="@/assets/curso/images/tema2/ico_7.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;")
               .col-lg-8
                 h4 Identificar los perfiles de los clientes 
                 p.mb-3 Lograr como vendedor el análisis e identificación de los diferentes tipos de clientes le permitirá actuar con estrategias acordes a cada perfil. 
                 p.mb-0 Por ello, entre más conozca su punto de venta, los hábitos de consumo de los clientes, quiénes compran más de un producto y en qué periodicidad, los comportamientos de compra según temporadas del mes (quincenas), del año (navidad, feriados) entre otras situaciones, permitirá abordar con mejores estrategias a cada cliente.
 
           .tarjeta.back-tab.px-5.py-4(titulo="Estrategia de mercado")
-            .row.px-5.py-3.justify-content-center.align-items-center
+            .row.px-2.py-3.justify-content-center.align-items-center
               .col-lg-4.mb-3
-                img.mx-3(src="@/assets/curso/images/tema2/ico_8.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;")
+                img.mx-5(src="@/assets/curso/images/tema2/ico_8.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;")
               .col-lg-8
                 h4 Estrategia de mercado
                 p.mb-3 Cada vendedor debe tener claro los siguientes interrogantes, para  así poder determinar o evaluar su fuerza de ventas:
@@ -130,9 +130,9 @@
                       |  ¿Cómo puede lograr que un cliente compre más de un producto en un solo momento?
                 p.mb-0 Conociendo la respuesta de estas variables tendrá suficiente información para trabajar estrategias de mercado a la medida de sus necesidades.
           .tarjeta.back-tab.px-5.py-4(titulo="Plan de acción")
-            .row.px-5.py-3.justify-content-center.align-items-center
+            .row.px-2.py-3.justify-content-center.align-items-center
               .col-lg-4.mb-3
-                img.mx-3(src="@/assets/curso/images/tema2/ico_9.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;")
+                img.mx-5(src="@/assets/curso/images/tema2/ico_9.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;")
               .col-lg-8
                 h4 Plan de acción
                 p.mb-3 Usar la creatividad e ingenio para definir acciones que apunten a la ejecución de la estrategia de venta, es quizás la parte más complicada en el sentido que cada acción se enmarca según la particularidad de cada punto de venta y personalidad del vendedor. 

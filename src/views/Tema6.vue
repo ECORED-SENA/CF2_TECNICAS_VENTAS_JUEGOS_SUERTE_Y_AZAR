@@ -11,9 +11,9 @@
 
       p.mb-5 Es la revisión, validación o comprobación de los movimientos realizados en efectivo en una jornada determinada, en síntesis, es la verificación de las entradas y salidas de dinero y que coincida con los registros de ventas y transacciones de ventas durante un lapso de tiempo.
 
-      .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center
         .col-lg-12
-          .row.align-items-center.justify-content-center.mb-5  
+          .row.align-items-center.justify-content-center
             .col-lg-6.mb-3(data-aos="fade-right") 
               img(src='@/assets/curso/images/tema6/img_1.png'  alt='')
             .col-lg-6(data-aos="fade-left") 
@@ -24,7 +24,7 @@
                 p.mb-0 Estos procedimientos varían según la comercializadora de juegos de suerte y azar; sin embargo, todas incluyen, al menos, las siguientes tareas:
 
    
-    .row.justify-content-center.align-items-center.bg_grad-06.p-4.mb-5
+    .row.justify-content-center.align-items-center.bg_grad-06.p-4
       .col-lg-12(data-aos="zoom-in-down")
         figure
           img(src='@/assets/curso/images/tema6/img_2.svg')

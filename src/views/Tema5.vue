@@ -26,13 +26,13 @@
 
       p.mb-3 A continuación algunos ejemplos de expresiones acosadoras:
 
-      .row.justify-content-center.align-items-center  
-        .col-lg-10
-          .row.justify-content-center.align-items-center   
-            .col-auto.onTop.p-3(data-aos="zoom-in-down")
+      .row.justify-content-center.align-items-center
+        .col-lg-10 
+          .row.justify-content-center.align-items-center
+            .col-auto.onTop-1.p-3(data-aos="zoom-in-down")
               img(src="@/assets/curso/images/tema5/img_2.png" alt='AvatarTop', style="width:250px;").m-auto    
             .col-lg(data-aos="zoom-in-down")
-              .custom_box_left-2
+              .custom_box_left-2.sombra  
                 ul.lista-ul
                   li 
                     i.fas.fa-check.c-check

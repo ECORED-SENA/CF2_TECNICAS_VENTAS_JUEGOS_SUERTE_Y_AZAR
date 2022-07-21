@@ -10,7 +10,7 @@
     p.mb-5 Son las trabas que un cliente puede poner para no concretar la compra. Esta es una situación que en todos los ámbitos de la venta se presenta, se podría incluso tomar como un medio de defensa natural que tienen los clientes cuando no hay seguridad en sus compras, si bien, lo más importante de la venta está dado en la oferta de un producto y un cliente interesado por este producto, ocasionalmente hay una objeción que el vendedor deberá saber gestionar para que se concrete la venta.
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12(data-aos="fade")
+      .col-lg-12(data-aos="zoom-in-down")
         figure
           img(src='@/assets/curso/images/tema4/img_1.png')
 
@@ -46,11 +46,11 @@
 
     p.mb-5 Ya en el apartado anterior se mencionó un par de técnicas para gestionar las refutaciones de los clientes. Pero, además en el contexto de ventas de juegos de suerte y azar, los clientes podrían invocar muchas razones para no comprar, a continuación las más comunes:
 
-    .tarjeta.bg_grad-02.p-4.mb-5(data-aos="zoom-in-up")
-      SlyderA
+    .tarjeta.bg_grad-07.p-4.mb-5(data-aos="zoom-in-up")
+      SlyderA(tipo="b")
         .row.justify-content-center.align-items-center.p-5
           .col-lg-5
-            h3 No tengo dinero
+            h4 No tengo dinero
             p.mb-3 Cuando alguien se interese, pero su justificación es la falta de dinero, puede abordarlo de la siguiente manera:
             .row.justify-content-end
               .col-lg-11
@@ -64,7 +64,7 @@
 
         .row.justify-content-center.align-items-center.p-5
           .col-lg-5
-            h3 Ya compre y nunca me gano nada
+            h4 Ya compre y nunca me gano nada
             p.mb-3 Recordarle que cada día es una oportunidad para ganar,
             p.mb-3 resalte las ventajas del sorteo del día de hoy (mejores premios, varios chances por ganar, etc.)
             p.mb-0 Es importante la actitud ganadora y positiva del vendedor para contagiar en el cliente ese sueño de tener la posibilidad de ser premiado. 
@@ -74,7 +74,7 @@
 
         .row.justify-content-center.align-items-center.p-5
           .col-lg-5
-            h3 No tengo tiempo de esperar
+            h4 No tengo tiempo de esperar
             p.mb-3 Cuando un cliente está de prisa y no hay posibilidades de atenderlo de manera inmediata puede darle información impresa para que vaya leyendo.
             p.mb-3 Si es el caso de que se va a ir, recalcar que lo espera más tarde para atenderlo tal como se merece, pero siempre demostrar su agilidad y atención. 
             p.mb-0 Pero nunca debe ser ignorado, por ello, si tiene varios clientes a la vez, siga hablándoles de manera permanente tanto al uno como al otro, para que se sienta comprometido y espere su turno. 
@@ -85,7 +85,7 @@
 
         .row.justify-content-center.align-items-center.p-5
           .col-lg-5
-            h3 Si me fía, le compro
+            h4 Si me fía, le compro
             p.mb-3 En caso de que no exista un producto de suerte y azar que se venda a crédito, responder de manera agradable haciéndole saber al cliente que no está en sus manos vender productos de esa manera, pero siempre con buena actitud. 
             p.mb-3 Podría mencionar que si gana, cobrará el premio completo de una sola vez. 
             p.mb-0 Como también decirle que no es posible fiar; pero que puede recibirle tarjetas de crédito u otro medio de pago similar. 
@@ -95,7 +95,7 @@
 
         .row.justify-content-center.align-items-center.p-5
           .col-lg-5
-            h3 Venta cruzada
+            h4 Venta cruzada
             p.mb-3 Es importante ser convincente en el ofrecimiento de productos cruzados y los beneficios.
             p.mb-3 Si no se explica de la manera correcta, el cliente pedirá, por ejemplo, su vuelto en vez de un producto y ya será muy difícil que cambie de opinión.
             p.mb-0 Es importante conocer las reglas y normas que tenga su red para este tipo de cruces. 

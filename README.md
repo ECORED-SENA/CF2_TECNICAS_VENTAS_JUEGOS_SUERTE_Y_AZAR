@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.0.0**
+# **Proceso de ventas en juegos de suerte y azar**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED-BASE-2021](https://ecored-sena.github.io/ECORED-BASE-2021)
+[https://ecored-sena.github.io/CF2_TECNICAS_VENTAS_JUEGOS_SUERTE_Y_AZAR/](https://ecored-sena.github.io/CF2_TECNICAS_VENTAS_JUEGOS_SUERTE_Y_AZAR/)
 
 #
 
