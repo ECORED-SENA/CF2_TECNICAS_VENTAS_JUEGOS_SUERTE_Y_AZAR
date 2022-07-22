@@ -50,7 +50,7 @@
 		background-color:#361D90
 
 .color-custom-3
-	background-color:#EBEBEB
+	background-color: #E7E8EE
 	&::before
 		background-color:#361D90
 
@@ -193,19 +193,40 @@
       height: 215px
       background-color: #FFD947
       z-index: 0
+
+@media screen and ( max-width: 1100px )
+  .custom_box_left-2
+    position: relative 
+    padding: 0.8rem 1.5rem 
+    background-color: #FFD947
+    width: 130%
+    margin-left: -170px
+    top: 20px
+ 
+    &:before 
+      content: ""
+      position: absolute
+      left: 0
+      width: 50%
+      height: 235px
+      margin-left: -250px
+      background-color: #FFD947
+      z-index: 0
+
 @media screen and ( max-width: 397px )
   .custom_box_left-2
     position: relative 
     padding: 2.5rem 1.5rem 
     background-color: #FFD947
-    width: 100%
-    margin-left: -100px
-      position: relative 
+    width: 115%
+    margin-left: -131px
+
     &:before 
       content: ""
       position: absolute
       top: -215px
       left: 0
+      margin-left: 0px
       width: 100%
       height: 235px
       background-color: #FFD947
@@ -293,9 +314,13 @@
   top: 2px
   @media screen and ( max-width: 397px )
     margin-left: -195px
-    top: 100px
-
-
+    top: 50px
+    margin-bottom: -60px
+  @media screen and ( max-width: 1100px )
+    position: relative
+    margin-left: -120px
+    margin-right: 120px
+    top: -3px
  
 .col-md-auto 
   flex: 0 0 auto
@@ -332,6 +357,7 @@
     width: 400px
   @media (max-width: 397px)
     margin-left: -30px
+    width: 410px
 
 .bg_grad-02-1
   background-image: url('../assets/curso/images/tema1/back_slyder.svg')
@@ -442,7 +468,7 @@
   background-size: cover
   @media (max-width: 992px)
     width: 390px
-    margin-left: -24px
+    margin-left: -20px
 
 .slyder-a__bullets__item--active
   background-color: #E33FFD !important
@@ -481,12 +507,26 @@
   position: relative
   left: calc(100% - 30px)
 
+
 .linea-tiempo-b__icon img 
   position: absolute
-  width: 40%
+  width: 45%
   top: 50%
   left: 50%
   transform: translate(-50%, -50%)
+
+
+.linea-tiempo-b.color-secundario .linea-tiempo-b__icon 
+  background-color: #9D39E3
+  width: 67%
+  margin-left: 30px
+
+.linea-tiempo-b__icon 
+  padding-top: 70%
+  border-radius: 50%
+  position: relative
+
+
 
 .m-right
   right: -40% !important
@@ -527,18 +567,18 @@
 .slyder-a__tipo-a .slyder-a__btn--atrs 
   @media screen and (max-width: $bp-max-xs)
     left: 2px
-    margin-top: 175px
+    margin-top: 155px
 .slyder-a__tipo-a .slyder-a__btn--sigt 
   @media screen and (max-width: $bp-max-xs)
     right: 2px
-    margin-top: 175px
+    margin-top: 155px
 
 .slyder-a.tema1
   @media screen and (max-width: $bp-max-xs)
     right: 0px
-    margin-top: 15px
-    margin-left: 20px
-
+    margin-top: 5px
+    margin-left: 0px
+    width: 360px
 
 
 

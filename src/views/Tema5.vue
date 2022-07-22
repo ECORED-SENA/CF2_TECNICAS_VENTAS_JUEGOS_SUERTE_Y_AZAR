@@ -52,9 +52,10 @@
                   li 
                     i.fas.fa-check.c-check
                     | Es la mejor inversión que puede hacer.
-    p.my-3 Cuando un vendedor cae en este “acoso” (muchas veces sin saberlo), el cliente inmediatamente lo percibe, se genera desconfianza y contrarresta esta situación marchándose del punto de venta, por lo cual una venta se ha perdido.
+                    
+    p.mt-5 Cuando un vendedor cae en este “acoso” (muchas veces sin saberlo), el cliente inmediatamente lo percibe, se genera desconfianza y contrarresta esta situación marchándose del punto de venta, por lo cual una venta se ha perdido.
 
-    p.mb0 Otro error es caer en la mala atención al cliente; sin embargo, este aspecto ya se ha visto en el apartado servicio al cliente.
+    p.mb-0 Otro error es caer en la mala atención al cliente; sin embargo, este aspecto ya se ha visto en el apartado servicio al cliente.
 
     Separador 
 
