@@ -48,21 +48,21 @@
 
     .tarjeta.bg_grad-07.p-4.mb-5(data-aos="zoom-in-up")
       SlyderA(tipo="b")
-        .row.justify-content-center.align-items-center.p-5
+        .row.p-1
           .col-lg-5
             h4 No tengo dinero
             p.mb-3 Cuando alguien se interese, pero su justificación es la falta de dinero, puede abordarlo de la siguiente manera:
-            .row.justify-content-end
-              .col-lg-11
+            .row
+              .col-lg-12
                 p Puede informar otro tipo de compra con otros medios que no sean efectivo: tarjetas, código QR, etc.
                 p Puede manifestarle que está dispuesto a esperar y puede regresar luego. 
                 p Presentar otras opciones de compra, que sean más accesibles para el cliente (productos en oferta, en combo, etc.). 
-            p A veces un vendedor según la técnica puede hacer que el cliente se emocione con el producto de tal manera que compra inmediatamente sin objetar por el dinero.
+              p A veces un vendedor según la técnica puede hacer que el cliente se emocione con el producto de tal manera que compra inmediatamente sin objetar por el dinero.
           .col-lg-7
             img.mt-3(src="@/assets/curso/images/tema4/img_3.png").mb-3
           
 
-        .row.justify-content-center.align-items-center.p-5
+        .row
           .col-lg-5
             h4 Ya compre y nunca me gano nada
             p.mb-3 Recordarle que cada día es una oportunidad para ganar,
@@ -72,7 +72,7 @@
           .col-lg-7
             img.mt-3(src="@/assets/curso/images/tema4/img_4.png").mb-3
 
-        .row.justify-content-center.align-items-center.p-5
+        .row.p-1
           .col-lg-5
             h4 No tengo tiempo de esperar
             p.mb-3 Cuando un cliente está de prisa y no hay posibilidades de atenderlo de manera inmediata puede darle información impresa para que vaya leyendo.
@@ -83,7 +83,7 @@
             img.mt-3(src="@/assets/curso/images/tema4/img_5.png").mb-3
 
 
-        .row.justify-content-center.align-items-center.p-5
+        .row.p-1
           .col-lg-5
             h4 Si me fía, le compro
             p.mb-3 En caso de que no exista un producto de suerte y azar que se venda a crédito, responder de manera agradable haciéndole saber al cliente que no está en sus manos vender productos de esa manera, pero siempre con buena actitud. 
@@ -93,7 +93,7 @@
           .col-lg-7
             img.mt-3(src="@/assets/curso/images/tema4/img_6.png").mb-3
 
-        .row.justify-content-center.align-items-center.p-5
+        .row.p-1
           .col-lg-5
             h4 Venta cruzada
             p.mb-3 Es importante ser convincente en el ofrecimiento de productos cruzados y los beneficios.

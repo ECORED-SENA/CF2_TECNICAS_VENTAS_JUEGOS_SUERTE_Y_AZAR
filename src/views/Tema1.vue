@@ -105,7 +105,7 @@
 
     .tarjeta.bg_grad-02.p-4.mb-5(data-aos="zoom-in-up")
       SlyderA.slyder-a.tema1
-        .row.align-items-center.p-4
+        .row.p-1
           .col-lg-4
             h4 Gestión de quejas y reclamos
             p.mb-3 La gestión de quejas y reclamos está definida por el protocolo de cada organización, por ello, debe como vendedor estar al tanto de este tipo de procedimientos para no cometer errores al dar información errada a un cliente. 
@@ -127,7 +127,7 @@
             img.mt-3(src="@/assets/curso/images/tema1/img_6.png").mb-3
           
 
-        .row.align-items-center.p-4
+        .row.p-1
           .col-lg-4
             h4 Recepción de la queja
             p.mb-3 Es vital para un vendedor saber actuar frente a una situación de queja o reclamo del cliente,  no solo depende de:
@@ -148,7 +148,7 @@
           .col-lg-8
             img.mt-3(src="@/assets/curso/images/tema1/img_8.png").mb-3
 
-        .row.align-items-center.p-4
+        .row.p-1
           .col-lg-4
             h4 Informar al cliente sobre las acciones sobre la queja
             p.mb-3 Sea cual sea el proceso a seguir en la empresa, si el cliente pregunta por el estado de la queja es su deber hacerle las cosas fáciles para no aumentar su frustración. Si la solución no está en manos del vendedor se deben dar todas las indicaciones que sean necesarias para informar sobre el estado de la queja y demostrar siempre su acompañamiento en el proceso.
@@ -159,7 +159,7 @@
             img.mt-3(src="@/assets/curso/images/tema1/img_9.png").mb-3
 
 
-        .row.align-items-center.p-4
+        .row.p-1
           .col-lg-4
             h4 Analice las oportunidades de los reclamos
             p.mb-3 Esta situación de inconformidad de los clientes permiten el análisis para procurar convertir amenazas en oportunidades y debilidades en fortalezas, de este modo, los reclamos y las quejas se vuelven insumos para mejorar el negocio y tomar medidas correctivas que faciliten las oportunidades de venta y el servicio al cliente. 
