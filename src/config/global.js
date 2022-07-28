@@ -169,7 +169,7 @@ export default {
       referencia:
         'CEUPE magazine. (2020). ¿En qué consiste el cierre de la venta? CEUPE magazine.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://www.ceupe.com/blog/en-que-consiste-el-cierre-de-la-venta.html',
     },
     {
       referencia:
@@ -363,12 +363,7 @@ export default {
     ],
     gestoresRepositorio: [
       {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
+        nombre: 'Jhon Fredy Rodriguez Castiblanco',
         cargo: 'Validación y vinculación en plataforma LMS',
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },

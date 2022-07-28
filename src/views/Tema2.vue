@@ -180,7 +180,7 @@ export default {
       },
       {
         titulo: '5. Fidelizar',
-        texto: 'Lograr que los clientes vuelvan a comprar. .',
+        texto: 'Lograr que los clientes vuelvan a comprar.',
         icono: require('@/assets/curso/images/tema2/ico_5.svg'),
       },
     ],

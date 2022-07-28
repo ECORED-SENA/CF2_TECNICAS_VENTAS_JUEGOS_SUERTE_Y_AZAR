@@ -35,6 +35,9 @@
                     .row
                       .col-auto
                         img.mx-4(src="@/assets/curso/images/tema1/Ico-video.svg",  alt='', style="width:20px; display:block; margin:auto 0 ;")
+    
+    
+    p.mb-3 Las ventas enfocadas a juegos de suerte y azar, como en otros sectores, emplean algunos pasos importantes que se deben tener en cuenta.
 
     Separador 
 
@@ -54,7 +57,7 @@
               img(src="@/assets/curso/images/tema1/img_3.png" alt='AvatarTop')
             .col-lg(data-aos="zoom-in-down")
               .custom_box_left-3
-                p En este caso, según el target enmarcado en este componente formativo, los vendedores de juegos de suerte y azar deben ejecutar de manera disciplinada los pasos que se muestran en el siguiente mapa conceptual, en el cual se definen nueve pasos para la venta efectiva, aplicada a la oferta de productos y servicios de juegos de suerte y azar. Si bien no es un estándar técnico que los vendedores están obligados a seguir, son recomendaciones importantes para alcanzar el éxito de manera más efectiva. 
+                p En este caso, según el <i>target</i> enmarcado en este componente formativo, los vendedores de juegos de suerte y azar deben ejecutar de manera disciplinada los pasos que se muestran en el siguiente mapa conceptual, en el cual se definen nueve pasos para la venta efectiva, aplicada a la oferta de productos y servicios de juegos de suerte y azar. Si bien no es un estándar técnico que los vendedores están obligados a seguir, son recomendaciones importantes para alcanzar el éxito de manera más efectiva. 
 
   
 
@@ -176,8 +179,7 @@
         .bloque-texto-c.color-custom-5.p-4.mx-4
           i.fas.fa-quote-right
           h4.mb-2 Lastimosamente muchas empresas le dan poca importancia a la gestión de quejas y reclamos, donde organizaciones y vendedores tienen la incapacidad de verlas como oportunidades para mejorar la imagen de la empresa y del mismo vendedor.
-          span - The graphic designer
-        
+          span (Kirberg, 2017)
     p.mb-5 Se invita a ver el siguiente video para conocer algunas recomendaciones para la retención de clientes:
 
 

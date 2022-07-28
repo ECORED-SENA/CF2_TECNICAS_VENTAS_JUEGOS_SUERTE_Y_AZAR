@@ -33,7 +33,7 @@
     #t_3_1.titulo-segundo
       .h2 3.1.	Aplicabilidad en el campo
     
-    p.mb-5 El enfoque que se debe dar en las ventas online es la difusión del uso de las plataformas digitales que la red de apuestas y juegos de azar vaya lanzando. Desde la visión del vendedor se suele reaccionar en contra de estas tecnologías, pues se tiene la idea de que al emplearse cada vez más estas herramientas, menos usarán los puntos de venta físicos, surgiendo una competencia interna entre los puntos de venta y las herramientas tecnológicas.
+    p.mb-5 El enfoque que se debe dar en las ventas <i>online</i> es la difusión del uso de las plataformas digitales que la red de apuestas y juegos de azar vaya lanzando. Desde la visión del vendedor se suele reaccionar en contra de estas tecnologías, pues se tiene la idea de que al emplearse cada vez más estas herramientas, menos usarán los puntos de venta físicos, surgiendo una competencia interna entre los puntos de venta y las herramientas tecnológicas.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10(data-aos="fade")
@@ -105,6 +105,7 @@
           
           .row.align-items-center.p-4
             .col-lg-4
+              h4 Más digital
               p.mb-3 Usar las redes sociales solo para actividades personales y consumo, quizá es desaprovechar tiempo y posibilidades, la sugerencia es aprovechar la red social física o real que se teje en el puesto de trabajo (vecinos, clientes, conocidos, visitantes) y poco a poco pasarla a las redes sociales digitales. Como vendedor siempre será interesante para incrementar sus ventas, fortalecer sus contactos en redes sociales, ya que esto implica menos costos en llamadas y desplazamientos y facilita la difusión de sus productos. 
 
             .col-lg-8
